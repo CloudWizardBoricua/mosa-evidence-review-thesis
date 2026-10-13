@@ -8,7 +8,7 @@ STEMS = ("system_topology", "review_sequence", "approval_rollback", "migration")
 
 def main():
     blocks = [(ROOT / "diagrams" / f"{stem}.mmd").read_text(encoding="utf-8").strip() for stem in STEMS]
-    for path, replacements in ((ROOT / "docs/diagrams.md", blocks), (ROOT / "README.md", blocks[:1])):
+    for path, replacements in ((ROOT / "docs/diagrams.md", blocks), (ROOT / "README.md", blocks)):
         text = path.read_text(encoding="utf-8")
         matches = list(re.finditer(r"```mermaid\n.*?```", text, re.S))
         if len(matches) != len(replacements):

@@ -119,8 +119,11 @@ class PublicSiteTests(unittest.TestCase):
                 source = (ROOT / "diagrams" / f"{stem}.mmd").read_text(encoding="utf-8")
                 self.assertEqual(source.strip(), block.strip())
                 self.assertIn("classDef evidence", source)
-        readme_block = re.search(r"```mermaid\n(.*?)```", (ROOT / "README.md").read_text(encoding="utf-8"), re.S)
-        self.assertEqual(readme_block.group(1).strip(), blocks[0].strip())
+        readme_blocks = re.findall(r"```mermaid\n(.*?)```", (ROOT / "README.md").read_text(encoding="utf-8"), re.S)
+        self.assertEqual(len(readme_blocks), len(stems))
+        for stem, readme_block, source_block in zip(stems, readme_blocks, blocks):
+            with self.subTest(readme_diagram=stem):
+                self.assertEqual(readme_block.strip(), source_block.strip())
 
     def test_new_prose_avoids_long_dash_characters(self):
         for path in [ROOT / "README.md", *DOCS.glob("*.md")]:
