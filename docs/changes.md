@@ -31,7 +31,7 @@ MOSA means Modular Open Systems Approach. MBSE means Model Based Systems Enginee
 | Glossary and reproduction appendix | 4 |
 | **Total** | **50** |
 
-The accepted range is 48 to 52 rendered pages. A page target is a layout requirement, not a reason to repeat claims or fill pages. The Word and PDF drafts should agree and pass a visual review.
+The accepted range is 48 to 52 rendered pages. The current [revised PDF](assets/downloads/thesis-revised.pdf) is 52 pages, including front matter. Its contents and figure page references were verified after Word export, and every page was visually reviewed. The original is available separately as a [130-page preservation PDF](assets/downloads/thesis-original.pdf). A page target is a layout requirement, not a reason to repeat claims or fill pages.
 
 ## Supporting detail remains inspectable
 

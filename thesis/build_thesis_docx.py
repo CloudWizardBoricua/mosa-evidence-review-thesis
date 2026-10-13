@@ -307,7 +307,10 @@ class Builder:
 
     def copyright_page(self):
         m = self.content['metadata']
-        self.para('© Copyright by ' + m['author'] + ' ' + str(m['year']), 'Guide Text', True, 440, 8)
+        # Word suppresses space-before immediately after a manual page break.
+        # A spacer preserves the intended lower-page copyright placement.
+        self.para('', 'Guide Text', space_after=440)
+        self.para('© Copyright by ' + m['author'] + ' ' + str(m['year']), 'Guide Text', True, 0, 8)
         self.para('All Rights Reserved.', 'Guide Text', True)
 
     def front_heading(self, text):

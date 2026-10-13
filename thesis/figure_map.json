@@ -13,7 +13,7 @@
   },
   "migration": {
     "path": "../docs/assets/diagrams/migration.png",
-    "max_height_inches": 4.5
+    "max_height_inches": 3.8
   },
   "benchmark-split": {
     "path": "../docs/assets/figures/benchmark_split.png",

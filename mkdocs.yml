@@ -50,7 +50,7 @@ extra_javascript:
   - assets/javascripts/readers.js
 nav:
   - Start Here: index.md
-  - Read the Thesis: thesis.md
+  - Thesis PDFs: thesis.md
   - Follow One Review: review.md
   - Compare Results: results.md
   - Understand the Terms: glossary.md

@@ -15,6 +15,14 @@ def normalized(text):
     return re.sub(r'\s+', ' ', text).strip()
 
 
+def page_text(page):
+    text = page.extract_text() or ''
+    # Word can emit the footer's page label before the page's main text.
+    # Remove only a standalone leading label before locating headings.
+    text = re.sub(r'^\s*(?:\d+|[ivxlcdm]+)\s*\n', '', text, count=1)
+    return normalized(text)
+
+
 def roman(number):
     result = ''
     for value, token in [(1000, 'm'), (900, 'cm'), (500, 'd'), (400, 'cd'), (100, 'c'), (90, 'xc'), (50, 'l'), (40, 'xl'), (10, 'x'), (9, 'ix'), (5, 'v'), (4, 'iv'), (1, 'i')]:
@@ -32,7 +40,7 @@ def main():
     args = parser.parse_args()
     content = json.loads(Path(args.content).read_text(encoding='utf-8'))
     document = PdfReader(args.pdf)
-    texts = [normalized(page.extract_text() or '') for page in document.pages]
+    texts = [page_text(page) for page in document.pages]
     body_start = next((i for i, text in enumerate(texts) if text.startswith('Chapter 1 ')), None)
     if body_start is None:
         raise ValueError('Cannot locate the rendered first chapter heading.')

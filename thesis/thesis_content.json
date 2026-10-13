@@ -447,7 +447,7 @@
           ],
           "figure": {
             "id": "accuracy-chart",
-            "caption": "Raw and guarded disposition match on unique cases, with development and separate evaluation sets kept distinct.",
+            "caption": "Raw and guarded recommendation match on 20 unique additional cases; the incomplete model comparison remains unestimated.",
             "alt": "Bars compare raw and guarded disposition match for fixed, adaptive, and model control. Unavailable model results are labeled unavailable, not displayed as zero accuracy."
           },
           "table": {
@@ -458,7 +458,7 @@
               "Controller",
               "Raw match",
               "Guarded match",
-              "Completed primary runs"
+              "Completed repeated runs"
             ],
             "rows": [
               [

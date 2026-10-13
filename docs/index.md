@@ -8,7 +8,8 @@
 
 The thesis asks when an agent helps a person review evidence for the Modular Open Systems Approach, and which fixed checks keep its recommendations reliable.
 
-[Read the thesis](thesis.md){ .md-button .md-button--primary }
+[Read the revised thesis PDF](assets/downloads/thesis-revised.pdf){ .md-button .md-button--primary }
+[Read the original thesis PDF](assets/downloads/thesis-original.pdf){ .md-button }
 [Follow one review](review.md){ .md-button }
 
 </div>
@@ -25,7 +26,7 @@ An agent is a model that selects its next action from a permitted set. Here it c
 | Step | Read this | Purpose |
 | --- | --- | --- |
 | 1 | This page | Understand the question and the boundary |
-| 2 | [Read the Thesis](thesis.md) | Find the revised source, chapter guide, and download status |
+| 2 | [Thesis PDFs](thesis.md) | Read or download the original 130-page thesis and revised 52-page draft |
 | 3 | [Follow One Review](review.md) | Inspect a saved recommendation and its evidence |
 | 4 | [Compare Results](results.md) | Compare methods without mixing datasets |
 | 5 | [Understand the Terms](glossary.md) | Find plain language definitions and examples |

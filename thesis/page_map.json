@@ -1,0 +1,21 @@
+{
+  "front_abstract": "iv",
+  "front_figures": "vi",
+  "front_reader": "vii",
+  "chapter_1": "1",
+  "chapter_2": "4",
+  "chapter_3": "8",
+  "chapter_4": "18",
+  "chapter_5": "26",
+  "chapter_6": "36",
+  "references": "38",
+  "glossary": "41",
+  "appendix_A": "43",
+  "fig_system_topology": "9",
+  "fig_review_sequence": "14",
+  "fig_approval_rollback": "17",
+  "fig_benchmark_split": "21",
+  "fig_accuracy_chart": "31",
+  "fig_effort_latency_cost": "33",
+  "fig_migration": "45"
+}

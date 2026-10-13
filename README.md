@@ -5,12 +5,14 @@
 **Author:** Daren Jadiel Diaz  
 **Companion version:** 0.1.0  
 **Frozen study:** `thesis-study40-v1`  
-**Publication status:** Revised research draft; final Word and PDF downloads pending.
+**Publication status:** Original and revised thesis PDFs available; the revision remains a research draft.
 
 > **Formal thesis title**  
 > A CONFORMANCE HARNESS FOR VERIFIABLE MODULAR OPEN SYSTEMS OUTCOMES IN DEFENSE ACQUISITION: DESIGN, IMPLEMENTATION, AND CONTROLLED EVALUATION
 
-[Reading website](https://cloudwizardboricua.github.io/mosa-evidence-review-thesis/) · [Thesis guide](docs/thesis.md) · [Saved review explorer](docs/review.md) · [Results](docs/results.md) · [Reproduction guide](docs/reproduce.md)
+**Read the complete thesis:** [Original PDF (130 pages)](docs/assets/downloads/thesis-original.pdf) · [Revised PDF (52 pages)](docs/assets/downloads/thesis-revised.pdf)
+
+[Reading website](https://cloudwizardboricua.github.io/mosa-evidence-review-thesis/) · [PDF downloads and chapter guide](docs/thesis.md) · [Saved review explorer](docs/review.md) · [Results](docs/results.md) · [Reproduction guide](docs/reproduce.md)
 
 > **Research question:** When does an agent help a person review evidence for the Modular Open Systems Approach, and what checks are needed to keep its recommendations reliable?
 
@@ -28,7 +30,7 @@ The **Modular Open Systems Approach (MOSA)** concerns systems whose components c
 | Paid model study | Incomplete; stopped after HTTP 404 and unknown provider charge | [Budget ledger](evidence/study40/budget.json) |
 | Spending ceiling | $5 for the new study; actual charge unresolved | [Public summary](docs/assets/study_summary.json) |
 | Label review | Author verification and independent review pending | [Review status](evidence/study40/labels.json) |
-| Thesis documents | Source available; Word and PDF await final layout review | [Thesis source](thesis/thesis_content.json) |
+| Thesis documents | Original 130-page PDF and revised 52-page research draft | [Original PDF](docs/assets/downloads/thesis-original.pdf), [revised PDF](docs/assets/downloads/thesis-revised.pdf) |
 | Public interface | Reading site with saved records and filters | [Reader](docs/assets/javascripts/readers.js) |
 | Current capstone | Remains in class repository; migration is future work | [Migration guide](docs/migration.md) |
 
@@ -52,7 +54,7 @@ The **Modular Open Systems Approach (MOSA)** concerns systems whose components c
 
 | Reader | Suggested route | What to look for |
 | --- | --- | --- |
-| Thesis committee | [Thesis guide](docs/thesis.md) → [Design](docs/research-design.md) → [Results](#6-recorded-results) → [Limits](#16-research-limits) | Whether the argument follows the evidence and acknowledges unfinished work |
+| Thesis committee | [Revised thesis PDF](docs/assets/downloads/thesis-revised.pdf) → [Design](docs/research-design.md) → [Results](#6-recorded-results) → [Limits](#16-research-limits) | Whether the argument follows the evidence and acknowledges unfinished work |
 | New to MOSA | [Reader guide](docs/index.md) → [Architecture](#3-system-architecture) → [Example](#11-worked-evidence-review) → [Glossary](docs/glossary.md) | How a modularity claim becomes a checkable question |
 | Evidence reviewer | [Review explorer](docs/review.md) → [Case catalog](#9-frozen-case-catalog) → [Dictionary](#10-data-dictionary) | Source fields, findings, and guard interventions |
 | Researcher or analyst | [Datasets](#8-dataset-catalog) → [Design](#5-evaluation-design) → [CSV tables](#machine-readable-chart-tables) → [Reproduction](docs/reproduce.md) | Denominators, failures, missing values, and dataset boundaries |
@@ -701,7 +703,7 @@ mosa-evidence-review-thesis/
 ├── diagrams/                       Four editable Mermaid sources
 ├── docs/
 │   ├── index.md                    Reader orientation
-│   ├── thesis.md                   Chapter guide/download status
+│   ├── thesis.md                   PDF downloads and chapter guide
 │   ├── review.md                   Saved review explorer
 │   ├── results.md                  Generated results
 │   ├── research-design.md          Methods, cases, metrics, budget
@@ -712,6 +714,7 @@ mosa-evidence-review-thesis/
 │   ├── migration.md                Future transfer procedure
 │   ├── sources.md                  Sources/rights
 │   └── assets/
+│       ├── downloads/              Original/revised PDFs and checksum manifest
 │       ├── study_summary.json      Multi-study public summary
 │       ├── reviews.json            Reader-facing saved records
 │       ├── figures/                Seven chart families, CSVs, manifest
@@ -739,7 +742,7 @@ mosa-evidence-review-thesis/
 └── tools/                          Table, figure, diagram maintenance
 ```
 
-[.gitignore](.gitignore) excludes environments, generated `site/`, caches, and private `.env` files. Final thesis download files are not yet present.
+[.gitignore](.gitignore) excludes environments, generated `site/`, caches, and private `.env` files. The complete thesis PDFs are checked into [docs/assets/downloads/](docs/assets/downloads/); MkDocs includes them in the website build.
 
 ### Maintenance tools
 
@@ -831,7 +834,7 @@ The current capstone runner is not present at `prototypes/capstone/`; its paid s
 | Strict build reports missing link/image | Confirm file exists and relative path is correct |
 | Reader data unavailable | Confirm `reviews.json`; use MkDocs server rather than directly opening generated HTML |
 | Mermaid unavailable | Use linked PNG/SVG fallbacks |
-| Thesis downloads unavailable | Final layout and page-reference review remain pending |
+| PDF preview does not load | Open the file's GitHub page and select its download button, or use the PDF links on the reading website |
 | Pages deployment fails | Inspect workflow run and repository Pages configuration; local build and remote deployment are separate |
 
 ## 14. Verification and publication
@@ -893,11 +896,14 @@ The confirmed earlier thesis remains preserved separately. Presentation changes 
 | Item | Status | Location |
 | --- | --- | --- |
 | Formal title | Preserved | [Citation](CITATION.cff), [guide](docs/thesis.md) |
+| Original PDF | Available; 130 pages; original Word source unchanged | [thesis-original.pdf](docs/assets/downloads/thesis-original.pdf) |
+| Revised PDF | Available; 52 pages; contents, figure references, and all pages checked | [thesis-revised.pdf](docs/assets/downloads/thesis-revised.pdf) |
+| PDF provenance | Page counts, SHA-256 checksums, source identity, export method | [pdf_manifest.json](docs/assets/downloads/pdf_manifest.json) |
 | Structured argument | Available | [thesis_content.json](thesis/thesis_content.json) |
 | Study replacements | Available | [study_replacements.json](thesis/study_replacements.json) |
 | Figure map | Available | [figure_map.json](thesis/figure_map.json) |
 | Word tools | Available | [builder](thesis/build_thesis_docx.py), [authoring tool](thesis/author_thesis.py) |
-| Final Word/PDF | Pending matching layout, fields, page references, visual review | [Download status](docs/thesis.md) |
+| Editable Word download | Not published; generation tools remain available | [PDF downloads](docs/thesis.md) |
 | Committee approval | Not claimed | Revised research draft |
 
 ### Chapter guide
@@ -913,7 +919,7 @@ The confirmed earlier thesis remains preserved separately. Presentation changes 
 | 6. Conclusions/future work | Supported findings and remaining evaluation | [Limits](#16-research-limits), [roadmap](#17-roadmap-and-migration) |
 | References/glossary/appendix | Sources, terms, procedures | [Sources](docs/sources.md), [glossary](docs/glossary.md), [reproduction](docs/reproduce.md) |
 
-[What changed](docs/changes.md) explains the revision/reduction plan. Word generation is one preparation step; matching final exports still require review.
+[What changed](docs/changes.md) explains the revision/reduction plan. Read the PDFs for the complete documents; the Markdown pages provide companion guidance. The revised PDF was generated from the current structured content and exported through Microsoft Word after updating navigation fields. Its [page map](thesis/page_map.json) records verified locations. The original PDF preserves the original document's existing content, layout, and static navigation references. Neither export establishes approval of the revision.
 
 ## 16. Research limits
 
@@ -940,7 +946,7 @@ The conclusion can favor explicit adaptive rules if their measured benefit is su
 
 | Work item | State | Evidence needed |
 | --- | --- | --- |
-| Final thesis documents | Pending | Matching reviewed Word/PDF, resolved fields/references |
+| Revised thesis approval | Pending | Author and committee review of the published research draft |
 | Author label verification | Pending | Recorded review and transparent corrections |
 | Independent review | Pending | Named reviewer, date, scope, outcome |
 | Failed provider charge | Unknown | Reconciled charge and ledger |
