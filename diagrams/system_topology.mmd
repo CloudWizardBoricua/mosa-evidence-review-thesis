@@ -1,0 +1,20 @@
+flowchart TB
+    Evidence["Evidence"]:::evidence
+    Fixed["Fixed checks"]:::evidence
+    Rules["Rule choices"]:::evidence
+    Agent["Model choices"]:::agent
+    Tools["Shared tools"]:::evidence
+    Guard["Fixed guard"]:::evidence
+    Report["Saved report"]:::evidence
+    Human["Human review"]:::review
+    Archive["Public record"]:::evidence
+    Evidence --> Fixed & Rules & Agent
+    Fixed & Rules & Agent --> Tools
+    Tools --> Guard
+    Guard --> Report
+    Report --> Human
+    Report --> Archive
+    classDef evidence fill:#e8f1fb,stroke:#1565c0,color:#102f53
+    classDef agent fill:#f0e6fa,stroke:#6a1b9a,color:#431263
+    classDef review fill:#fff2d4,stroke:#9a6200,color:#563600
+    classDef ready fill:#e4f3e8,stroke:#24713a,color:#164724

@@ -1,0 +1,215 @@
+{
+  "run_id": "e193ec4fdfaa4c5ebabb47798fb2330f",
+  "package": "c0019",
+  "created_at": "2026-10-12T05:38:37.271459+00:00",
+  "finished_at": "2026-10-12T05:38:37.276370+00:00",
+  "profile": "mosa-course-profile-0.1",
+  "prompt_version": "mosa-review-0.1",
+  "controller": "fixed-baseline",
+  "package_fingerprint": "a6a3af45d86dbf20687853cee4f014e75f4c06ec791c6426c545710ee8e8442d",
+  "artifact_hashes": {
+    "manifest.json": "fc7ae54f7e853f4ebbf8ca50d74afdce9f3e42e30e58e82dd6e03298f7b68ef1",
+    "interface.json": "00a6fd7aa1484990400866867d5c4a36dec1ac868ec8437ef52c23d74b824993",
+    "sbom.json": "700991994afb8238bdaf004d5e1da293f5968013db773bac24e3e613ef5f7ed7",
+    "tests.json": "32c363224e783fcd4722e76e6ea1ae9b1806f3883635cd86b289b8bcb217bbea",
+    "provenance.json": "81e1ea25bdd33bd2c9f7dc793987a0811b18a13d0d13cc8db01a279767c468de"
+  },
+  "disabled_tool": null,
+  "live_osv": false,
+  "model_calls": 0,
+  "request_attempts": 0,
+  "reported_cost_usd": 0.0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "status": "finished",
+  "raw_disposition": "not_ready",
+  "disposition": "not_ready",
+  "findings": [
+    {
+      "id": "PARSE_INTERFACE",
+      "artifact": "interface.json",
+      "field": "/",
+      "severity": "blocker",
+      "message": "Artifact is malformed, unsafe, or outside the intake limits.",
+      "remediation": "Supply a JSON object within the documented intake profile."
+    },
+    {
+      "id": "TOOL_UNAVAILABLE_1",
+      "artifact": "package",
+      "field": "/",
+      "severity": "unknown",
+      "message": "Validator could not complete.",
+      "remediation": "Restore the validator and rerun the review."
+    }
+  ],
+  "guard_notes": [],
+  "guard_interventions": [],
+  "coverage_complete": true,
+  "draft_valid": true,
+  "model_draft": {
+    "disposition": "not_ready",
+    "finding_ids": [
+      "PARSE_INTERFACE",
+      "TOOL_UNAVAILABLE_1"
+    ]
+  },
+  "latency_ms": 4.909,
+  "study_metadata": {
+    "case_id": "c0019",
+    "split": "development",
+    "mode": "baseline",
+    "repeat": 1,
+    "freeze_sha256": "70258896ad3335b10dd19217d819c7dbd25934615091612bc0b260314047055f"
+  },
+  "results": {
+    "inspect_evidence_package": {
+      "tool": "inspect_evidence_package",
+      "inventory": [
+        {
+          "artifact": "manifest.json",
+          "sha256": "fc7ae54f7e853f4ebbf8ca50d74afdce9f3e42e30e58e82dd6e03298f7b68ef1"
+        },
+        {
+          "artifact": "sbom.json",
+          "sha256": "700991994afb8238bdaf004d5e1da293f5968013db773bac24e3e613ef5f7ed7"
+        },
+        {
+          "artifact": "tests.json",
+          "sha256": "32c363224e783fcd4722e76e6ea1ae9b1806f3883635cd86b289b8bcb217bbea"
+        },
+        {
+          "artifact": "provenance.json",
+          "sha256": "81e1ea25bdd33bd2c9f7dc793987a0811b18a13d0d13cc8db01a279767c468de"
+        }
+      ],
+      "findings": [
+        {
+          "id": "PARSE_INTERFACE",
+          "artifact": "interface.json",
+          "field": "/",
+          "severity": "blocker",
+          "message": "Artifact is malformed, unsafe, or outside the intake limits.",
+          "remediation": "Supply a JSON object within the documented intake profile."
+        }
+      ],
+      "halt_recommended": true,
+      "priority_hint": "interface first",
+      "scope": "mosa-course-profile-0.1",
+      "note": "Hashes establish byte consistency, not signer authenticity."
+    },
+    "validate_interface_contract": {
+      "tool": "validate_interface_contract",
+      "findings": [
+        {
+          "id": "TOOL_UNAVAILABLE_1",
+          "artifact": "package",
+          "field": "/",
+          "severity": "unknown",
+          "message": "Validator could not complete.",
+          "remediation": "Restore the validator and rerun the review."
+        }
+      ],
+      "error_type": "JSONDecodeError"
+    },
+    "verify_sbom_and_advisories": {
+      "tool": "verify_sbom_and_advisories",
+      "findings": [],
+      "advisories": [],
+      "advisory_mode": "synthetic dated fixture",
+      "advisory_fixture_date": "2026-10-11",
+      "scope": "Selected CycloneDX profile fields only; fixture mode is not a real vulnerability scan."
+    }
+  },
+  "events": [
+    {
+      "at": "2026-10-12T05:38:37.273320+00:00",
+      "type": "tool",
+      "tool": "inspect_evidence_package",
+      "arguments": {},
+      "reason": "Fixed baseline invokes every validator in this order.",
+      "status": "ok",
+      "latency_ms": 1.588,
+      "output": {
+        "tool": "inspect_evidence_package",
+        "inventory": [
+          {
+            "artifact": "manifest.json",
+            "sha256": "fc7ae54f7e853f4ebbf8ca50d74afdce9f3e42e30e58e82dd6e03298f7b68ef1"
+          },
+          {
+            "artifact": "sbom.json",
+            "sha256": "700991994afb8238bdaf004d5e1da293f5968013db773bac24e3e613ef5f7ed7"
+          },
+          {
+            "artifact": "tests.json",
+            "sha256": "32c363224e783fcd4722e76e6ea1ae9b1806f3883635cd86b289b8bcb217bbea"
+          },
+          {
+            "artifact": "provenance.json",
+            "sha256": "81e1ea25bdd33bd2c9f7dc793987a0811b18a13d0d13cc8db01a279767c468de"
+          }
+        ],
+        "findings": [
+          {
+            "id": "PARSE_INTERFACE",
+            "artifact": "interface.json",
+            "field": "/",
+            "severity": "blocker",
+            "message": "Artifact is malformed, unsafe, or outside the intake limits.",
+            "remediation": "Supply a JSON object within the documented intake profile."
+          }
+        ],
+        "halt_recommended": true,
+        "priority_hint": "interface first",
+        "scope": "mosa-course-profile-0.1",
+        "note": "Hashes establish byte consistency, not signer authenticity."
+      }
+    },
+    {
+      "at": "2026-10-12T05:38:37.274479+00:00",
+      "type": "tool",
+      "tool": "validate_interface_contract",
+      "arguments": {},
+      "reason": "Fixed baseline invokes every validator in this order.",
+      "status": "error",
+      "latency_ms": 0.783,
+      "output": {
+        "tool": "validate_interface_contract",
+        "findings": [
+          {
+            "id": "TOOL_UNAVAILABLE_1",
+            "artifact": "package",
+            "field": "/",
+            "severity": "unknown",
+            "message": "Validator could not complete.",
+            "remediation": "Restore the validator and rerun the review."
+          }
+        ],
+        "error_type": "JSONDecodeError"
+      }
+    },
+    {
+      "at": "2026-10-12T05:38:37.275486+00:00",
+      "type": "tool",
+      "tool": "verify_sbom_and_advisories",
+      "arguments": {},
+      "reason": "Fixed baseline invokes every validator in this order.",
+      "status": "ok",
+      "latency_ms": 0.568,
+      "output": {
+        "tool": "verify_sbom_and_advisories",
+        "findings": [],
+        "advisories": [],
+        "advisory_mode": "synthetic dated fixture",
+        "advisory_fixture_date": "2026-10-11",
+        "scope": "Selected CycloneDX profile fields only; fixture mode is not a real vulnerability scan."
+      }
+    },
+    {
+      "at": "2026-10-12T05:38:37.276385+00:00",
+      "type": "decision_guard",
+      "disposition": "not_ready",
+      "notes": []
+    }
+  ]
+}

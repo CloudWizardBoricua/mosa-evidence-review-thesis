@@ -1,0 +1,13 @@
+[build-system]
+requires=["setuptools>=68"]
+build-backend="setuptools.build_meta"
+
+[project]
+name="mosa-conformance-harness-prototype"
+version="0.1.0"
+description="Controlled prototype used in a thesis feasibility evaluation"
+requires-python=">=3.11"
+dependencies=["jsonschema>=4.20","pandas>=2.0","numpy>=1.26","scipy>=1.11","statsmodels>=0.14","matplotlib>=3.8"]
+
+[tool.pytest.ini_options]
+pythonpath=["src"]

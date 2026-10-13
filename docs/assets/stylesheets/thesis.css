@@ -1,0 +1,67 @@
+:root {
+  --md-primary-fg-color: #841617;
+  --md-primary-fg-color--light: #a52326;
+  --md-primary-fg-color--dark: #641113;
+  --md-accent-fg-color: #841617;
+  --evidence: #1565c0;
+  --agent: #6a1b9a;
+  --ready: #24713a;
+  --review: #9a6200;
+  --blocked: #841617;
+}
+.md-typeset { font-family: Georgia, "Times New Roman", serif; font-size: .88rem; line-height: 1.65; }
+.md-header, .md-tabs, .md-sidebar, .md-typeset h1, .md-typeset h2, .md-typeset h3,
+.md-typeset button, .md-typeset select, .md-typeset .md-button, .legend, .eyebrow {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.md-typeset h1 { color: var(--md-default-fg-color); font-weight: 750; letter-spacing: -.02em; }
+.md-typeset h2 { font-weight: 700; }
+.md-typeset a { text-underline-offset: .15em; }
+[data-md-color-scheme="slate"] .md-typeset a { color: #f2aaaa; }
+[data-md-color-scheme="slate"] .md-typeset .md-button--primary { color: white; }
+.hero { padding: 1.7rem; margin-bottom: 1.8rem; border-top: .3rem solid #841617; background: var(--md-code-bg-color); border-radius: .2rem; }
+.hero h2 { margin-top: .6rem; font-size: 1.65rem; line-height: 1.25; }
+.eyebrow { text-transform: uppercase; letter-spacing: .09em; font-size: .64rem; font-weight: 700; }
+.reading-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1rem; }
+.reading-card { padding: .9rem 1rem; border: 1px solid var(--md-default-fg-color--lightest); border-top: .22rem solid var(--evidence); border-radius: .18rem; }
+.reading-card.agent { border-top-color: var(--agent); }
+.reading-card.review { border-top-color: var(--review); }
+.reading-card h3 { margin: 0 0 .5rem; }
+.legend { display: inline-block; font-size: .68rem; font-weight: 650; padding: .2rem .5rem; border-radius: .18rem; border: 1px solid; }
+.legend.evidence { background: #e8f1fb; color: #102f53; border-color: #1565c0; }
+.legend.agent { background: #f0e6fa; color: #431263; border-color: #6a1b9a; }
+.legend.ready { background: #e4f3e8; color: #164724; border-color: #24713a; }
+.legend.review { background: #fff2d4; color: #563600; border-color: #9a6200; }
+.legend.blocked { background: #f8e8ea; color: #641113; border-color: #841617; }
+.interactive-panel { margin: 1.5rem 0; padding: 1rem; border: 1px solid var(--md-default-fg-color--lightest); border-radius: .25rem; }
+.review-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
+.review-controls label { display: block; font-family: system-ui, sans-serif; font-weight: 600; font-size: .74rem; }
+.review-controls select { width: 100%; padding: .5rem; margin-top: .4rem; border: 1px solid var(--md-default-fg-color--light); border-radius: .2rem; color: var(--md-default-fg-color); background: var(--md-default-bg-color); font-size: .8rem; }
+.review-record { border-top: 1px solid var(--md-default-fg-color--lightest); padding-top: 1rem; margin-top: 1rem; }
+.review-record h3 { margin-top: 0; }
+.review-outcomes { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; }
+.finding { padding: .7rem 1rem; margin: .65rem 0; border-left: .22rem solid var(--blocked); background: var(--md-code-bg-color); }
+.finding.unknown { border-left-color: var(--review); }
+.finding p { margin: .25rem 0; }
+.source-ref { overflow-wrap: anywhere; }
+.metric-grid { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; font-size: .75rem; }
+.table-scroll { overflow-x: auto; }
+.md-typeset img { height: auto; max-width: 100%; }
+.md-typeset table:not([class]) { font-size: .72rem; }
+.md-typeset .admonition { font-size: .76rem; }
+.md-typeset .admonition.info { border-color: var(--evidence); }
+.md-typeset .admonition.example { border-color: var(--agent); }
+.md-typeset .admonition.warning, .md-typeset .admonition.question { border-color: var(--review); }
+button:focus-visible, select:focus-visible, a:focus-visible { outline: 3px solid var(--evidence); outline-offset: 3px; }
+@media(max-width: 750px) {
+  .reading-grid, .review-controls { grid-template-columns: 1fr; }
+  .hero { padding: 1.1rem; }
+  .hero h2 { font-size: 1.35rem; }
+  .md-typeset .md-button { display: block; margin-top: .6rem; text-align: center; }
+}
+@media print {
+  .hero { border: none; }
+  .review-controls, .md-header, .md-sidebar { display: none; }
+  .reading-grid { display: block; }
+  .reading-card, .review-record { break-inside: avoid; }
+}

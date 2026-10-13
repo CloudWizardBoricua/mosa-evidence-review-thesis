@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="468.36pt" height="265.0215pt" viewBox="0 0 468.36 265.0215" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-labelledby="figure-title figure-description">
+<title id="figure-title">Effort time and cost</title>
+<desc id="figure-description">Three repetitions on 20 additional cases. The failed model request provides no comparable effort, review time, or provider charge estimate.</desc>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-12T00:46:53.325667</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 265.0215 
+L 468.36 265.0215 
+L 468.36 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 18.549 199.185276 
+L 144.74988 199.185276 
+Q 156.09888 199.185276 156.09888 194.908476 
+L 156.09888 42.483324 
+Q 156.09888 38.206524 144.74988 38.206524 
+L 18.549 38.206524 
+Q 7.2 38.206524 7.2 42.483324 
+L 7.2 194.908476 
+Q 7.2 199.185276 18.549 199.185276 
+z
+" clip-path="url(#p53cc78fce8)" style="fill: #ffffff; stroke: #d6dce3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 169.869 199.185276 
+L 296.06988 199.185276 
+Q 307.41888 199.185276 307.41888 194.908476 
+L 307.41888 42.483324 
+Q 307.41888 38.206524 296.06988 38.206524 
+L 169.869 38.206524 
+Q 158.52 38.206524 158.52 42.483324 
+L 158.52 194.908476 
+Q 158.52 199.185276 169.869 199.185276 
+z
+" clip-path="url(#p53cc78fce8)" style="fill: #ffffff; stroke: #d6dce3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 321.189 199.185276 
+L 447.38988 199.185276 
+Q 458.73888 199.185276 458.73888 194.908476 
+L 458.73888 42.483324 
+Q 458.73888 38.206524 447.38988 38.206524 
+L 321.189 38.206524 
+Q 309.84 38.206524 309.84 42.483324 
+L 309.84 194.908476 
+Q 309.84 199.185276 321.189 199.185276 
+z
+" clip-path="url(#p53cc78fce8)" style="fill: #ffffff; stroke: #d6dce3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #841617" x="19.00296" y="59.24838" transform="rotate(-0 19.00296 59.24838)">Effort</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526678" x="19.00296" y="78.92166" transform="rotate(-0 19.00296 78.92166)">Validator calls</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1f5b99" x="19.00296" y="110.56998" transform="rotate(-0 19.00296 110.56998)">Fixed</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #253040" x="141.1182" y="110.56998" transform="rotate(-0 141.1182 110.56998)">180</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #187e89" x="19.00296" y="143.07366" transform="rotate(-0 19.00296 143.07366)">Rules</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #253040" x="141.1182" y="143.07366" transform="rotate(-0 141.1182 143.07366)">162</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #744398" x="19.00296" y="175.57734" transform="rotate(-0 19.00296 175.57734)">Model</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #253040" x="141.1182" y="175.57734" transform="rotate(-0 141.1182 175.57734)">Unavailable</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #841617" x="170.32296" y="59.24838" transform="rotate(-0 170.32296 59.24838)">Time</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526678" x="170.32296" y="78.92166" transform="rotate(-0 170.32296 78.92166)">Median milliseconds</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1f5b99" x="170.32296" y="110.56998" transform="rotate(-0 170.32296 110.56998)">Fixed</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #253040" x="292.4382" y="110.56998" transform="rotate(-0 292.4382 110.56998)">5.009</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #187e89" x="170.32296" y="143.07366" transform="rotate(-0 170.32296 143.07366)">Rules</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #253040" x="292.4382" y="143.07366" transform="rotate(-0 292.4382 143.07366)">4.969</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #744398" x="170.32296" y="175.57734" transform="rotate(-0 170.32296 175.57734)">Model</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #253040" x="292.4382" y="175.57734" transform="rotate(-0 292.4382 175.57734)">Unavailable</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #841617" x="321.64296" y="59.24838" transform="rotate(-0 321.64296 59.24838)">Cost</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526678" x="321.64296" y="78.92166" transform="rotate(-0 321.64296 78.92166)">Provider dollars</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1f5b99" x="321.64296" y="110.56998" transform="rotate(-0 321.64296 110.56998)">Fixed</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #253040" x="443.7582" y="110.56998" transform="rotate(-0 443.7582 110.56998)">$0</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #187e89" x="321.64296" y="143.07366" transform="rotate(-0 321.64296 143.07366)">Rules</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #253040" x="443.7582" y="143.07366" transform="rotate(-0 443.7582 143.07366)">$0</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #744398" x="321.64296" y="175.57734" transform="rotate(-0 321.64296 175.57734)">Model</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #253040" x="443.7582" y="175.57734" transform="rotate(-0 443.7582 175.57734)">Unknown</text>
+   </g>
+  </g>
+  <g id="text_25">
+   <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #841617" x="13.284" y="19.3575" transform="rotate(-0 13.284 19.3575)">Additional-case comparison</text>
+  </g>
+  <g id="text_26">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #253040" transform="translate(14.22 228.451125)">Three repetitions on 20 additional cases. The failed model request</text>
+   <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #253040" transform="translate(14.22 241.8885)">provides no comparable effort, review time, or provider charge</text>
+   <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #253040" transform="translate(14.22 255.325875)">estimate.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p53cc78fce8">
+   <rect x="7.2" y="31.0215" width="453.96" height="171.072"/>
+  </clipPath>
+ </defs>
+</svg>

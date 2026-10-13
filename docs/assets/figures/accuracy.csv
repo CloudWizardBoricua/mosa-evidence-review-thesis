@@ -1,0 +1,4 @@
+method,attempted_first_runs,raw_correct,guarded_correct,planned_unique_cases,status
+Fixed,20,20,20,20,complete
+Adaptive rules,20,20,20,20,complete
+Model agent,1,,,20,incomplete

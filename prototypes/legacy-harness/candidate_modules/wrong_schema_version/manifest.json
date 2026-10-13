@@ -1,0 +1,11 @@
+{
+  "module_name": "wrong_schema_version",
+  "module_version": "1.0.0",
+  "vendor": "Vendor C",
+  "interface_version": "1.0",
+  "entry_point": "processor.py:process_event",
+  "declared_dependencies": [],
+  "source_sha256": "374a9e078d0e76e0b50d367f79be5ebaaefece445efb2581f7a9b04d6c36af97",
+  "sbom": "sbom.json",
+  "data_rights": "government-purpose-rights"
+}

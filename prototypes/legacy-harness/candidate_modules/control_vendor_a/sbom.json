@@ -1,0 +1,11 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "components": [
+    {
+      "type": "library",
+      "name": "control_vendor_a",
+      "version": "1.0.0"
+    }
+  ]
+}

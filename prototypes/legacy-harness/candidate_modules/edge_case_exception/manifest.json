@@ -1,0 +1,11 @@
+{
+  "module_name": "edge_case_exception",
+  "module_version": "1.0.0",
+  "vendor": "Vendor C",
+  "interface_version": "1.0",
+  "entry_point": "processor.py:process_event",
+  "declared_dependencies": [],
+  "source_sha256": "a43b2338ab19d6cf8fd0323514a5a1a3d69ae70cf21a27a473a8c837c43b98ae",
+  "sbom": "sbom.json",
+  "data_rights": "government-purpose-rights"
+}

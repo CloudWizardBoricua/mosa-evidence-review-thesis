@@ -1,0 +1,11 @@
+{
+  "module_name": "nondeterministic_output",
+  "module_version": "1.0.0",
+  "vendor": "Vendor C",
+  "interface_version": "1.0",
+  "entry_point": "processor.py:process_event",
+  "declared_dependencies": [],
+  "source_sha256": "908876351c88e9708d4c5848634e30912559e2a162be712d705138bdaafc0d8d",
+  "sbom": "sbom.json",
+  "data_rights": "government-purpose-rights"
+}

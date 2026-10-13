@@ -1,0 +1,22 @@
+{
+  "study.fixed.raw": "20/20",
+  "study.fixed.guarded": "20/20",
+  "study.fixed.completed": "60/60",
+  "study.adaptive.raw": "20/20",
+  "study.adaptive.guarded": "20/20",
+  "study.adaptive.completed": "60/60",
+  "study.model.raw": "Not estimated",
+  "study.model.guarded": "Not estimated",
+  "study.model.completed": "0/60",
+  "study.completion": "The final study records 241 of 360 planned run slots. The comparison is incomplete, and unattempted slots are not counted as executed evidence.",
+  "study.heldout_accuracy": "For the 20 additional evaluation cases, fixed workflow: 20/20 raw and 20/20 guarded matches across 20 attempted first runs; rule based adaptive workflow: 20/20 raw and 20/20 guarded matches across 20 attempted first runs; model agent: 1/20 first runs attempted; 1 failed attempt; accuracy is not estimated for the incomplete schedule. The first run of each case is the accuracy unit; the other repetitions do not increase the sample size.",
+  "study.heldout_findings": "fixed workflow had 0 missed seeded finding identifiers, 1 extra finding identifiers, and 15/15 valid recorded references in its primary runs; rule based adaptive workflow had 0 missed seeded finding identifiers, 0 extra finding identifiers, and 14/14 valid recorded references in its primary runs. Extra fixed-workflow findings can be follow-on validator failures when evidence is missing; they are reported separately from seeded root faults.",
+  "study.development": "In the 20 development cases, fixed workflow: 20/20 raw and 20/20 guarded matches across 20 attempted first runs; rule based adaptive workflow: 20/20 raw and 20/20 guarded matches across 20 attempted first runs; model agent: not measured yet. These development cases copy the earlier checkpoint evidence under neutral identifiers.",
+  "study.effort": "Across the three repetitions on the 20 additional cases, fixed workflow: 180 actual validator invocations across 60 recorded runs; rule based adaptive workflow: 162 actual validator invocations across 60 recorded runs. Incomplete model attempts do not provide a comparable validation-effort estimate.",
+  "study.latency_cost": "For completed additional-case reviews, fixed workflow: median 5.009 milliseconds and $0 in reported provider charges; rule based adaptive workflow: median 4.969 milliseconds and $0 in reported provider charges. These numbers describe the recorded execution environment and exclude human review time. An incomplete or failed model attempt is not used as a successful-review timing or cost estimate.",
+  "study.stability": "On additional cases with all three repetitions, fixed workflow: 20/20 stable raw recommendations and 20/20 stable guarded recommendations; rule based adaptive workflow: 20/20 stable raw recommendations and 20/20 stable guarded recommendations. No model stability estimate is made without completed repetitions.",
+  "study.budget": "The ledger contains $0 in reported provider charges and $0.00936056 held under conservative accounting against the $5 ceiling. The actual charge is unknown. Paid work stopped because request failed and its provider charge is unknown. The reported amount is not evidence of zero spending.",
+  "study.interpretation": "The completed offline evidence supports an adaptive rule comparison, but the incomplete model schedule prevents a complete three-controller empirical conclusion. Independent review remains pending, and these cases cannot establish performance in a real acquisition setting.",
+  "study.conclusion": "The completed offline evidence supports an adaptive rule comparison, but the incomplete model schedule prevents a complete three-controller empirical conclusion.",
+  "study.abstract": "The study currently contains 241 recorded offline or hosted run slots out of 360 planned slots. Additional-case primary outcomes were fixed workflow: 20/20 raw and 20/20 guarded matches across 20 attempted first runs; rule based adaptive workflow: 20/20 raw and 20/20 guarded matches across 20 attempted first runs; model agent: 1/20 first runs attempted; 1 failed attempt; accuracy is not estimated for the incomplete schedule."
+}

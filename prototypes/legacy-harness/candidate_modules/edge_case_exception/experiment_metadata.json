@@ -1,0 +1,5 @@
+{
+  "candidate": "edge_case_exception",
+  "fault_class": "edge_case_exception",
+  "expected_conformant": false
+}

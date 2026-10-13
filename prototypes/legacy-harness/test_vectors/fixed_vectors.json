@@ -1,0 +1,74 @@
+[
+  {
+    "schema_version": "1.0",
+    "event_id": "E-NOM-1",
+    "timestamp_ms": 1,
+    "sensor_id": "S1",
+    "temperature_c": 20.0,
+    "signal_strength": 0.1,
+    "quality": 0.95
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "E-NOM-2",
+    "timestamp_ms": 2,
+    "sensor_id": "S2",
+    "temperature_c": -20.0,
+    "signal_strength": 0.2,
+    "quality": 0.8
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "E-WAT-1",
+    "timestamp_ms": 3,
+    "sensor_id": "S3",
+    "temperature_c": 70.0,
+    "signal_strength": 0.5,
+    "quality": 0.7
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "E-WAT-2",
+    "timestamp_ms": 4,
+    "sensor_id": "S4",
+    "temperature_c": 40.0,
+    "signal_strength": 0.65,
+    "quality": 0.9
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "E-ALT-1",
+    "timestamp_ms": 5,
+    "sensor_id": "S5",
+    "temperature_c": 120.0,
+    "signal_strength": 0.9,
+    "quality": 0.3
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "E-ALT-2",
+    "timestamp_ms": 6,
+    "sensor_id": "S6",
+    "temperature_c": 100.0,
+    "signal_strength": 1.0,
+    "quality": 0.0
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "E-EDGE-LOW",
+    "timestamp_ms": 7,
+    "sensor_id": "S7",
+    "temperature_c": -50.0,
+    "signal_strength": 0.0,
+    "quality": 1.0
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "E-EDGE-HIGH",
+    "timestamp_ms": 8,
+    "sensor_id": "S8",
+    "temperature_c": 150.0,
+    "signal_strength": 1.0,
+    "quality": 0.0
+  }
+]

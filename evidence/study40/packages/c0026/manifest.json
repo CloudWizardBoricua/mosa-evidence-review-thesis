@@ -1,0 +1,20 @@
+{
+  "module_id": "module-103",
+  "build_id": "build-103",
+  "interface_version": "1.0.0",
+  "dependencies": [
+    "demo-parser"
+  ],
+  "endpoints": [
+    {
+      "path": "/status",
+      "method": "get",
+      "response_type": "object"
+    },
+    {
+      "path": "/health",
+      "method": "get",
+      "response_type": "object"
+    }
+  ]
+}

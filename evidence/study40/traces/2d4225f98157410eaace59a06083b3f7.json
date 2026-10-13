@@ -1,0 +1,196 @@
+{
+  "run_id": "2d4225f98157410eaace59a06083b3f7",
+  "package": "c0031",
+  "created_at": "2026-10-12T05:38:38.049089+00:00",
+  "finished_at": "2026-10-12T05:38:38.054192+00:00",
+  "profile": "mosa-course-profile-0.1",
+  "prompt_version": "mosa-review-0.1",
+  "controller": "fixed-baseline",
+  "package_fingerprint": "5b6bb38a2d74416072b7919dc28b5ad8b62de65684642f21e34dea636776549f",
+  "artifact_hashes": {
+    "manifest.json": "fc7ae54f7e853f4ebbf8ca50d74afdce9f3e42e30e58e82dd6e03298f7b68ef1",
+    "interface.json": "d33ceb343afaec32d42f434df975ad1c5fd1c418e9f28622ab5898156fd7e066",
+    "sbom.json": "b7490dae5326a457b95c59a0fc50e874b04bbcc0fb3a5974d08cd72d1a36aea0",
+    "tests.json": "32c363224e783fcd4722e76e6ea1ae9b1806f3883635cd86b289b8bcb217bbea",
+    "provenance.json": "6dc1bc4e35da0cd5f8a9384b4e9705cf142fd3334afd35bc9fa0ea9efbeeac98"
+  },
+  "disabled_tool": null,
+  "live_osv": false,
+  "model_calls": 0,
+  "request_attempts": 0,
+  "reported_cost_usd": 0.0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "status": "finished",
+  "raw_disposition": "not_ready",
+  "disposition": "not_ready",
+  "findings": [
+    {
+      "id": "COMPONENT_SHAPE_0",
+      "artifact": "sbom.json",
+      "field": "/components/0",
+      "severity": "blocker",
+      "message": "Component must be an object.",
+      "remediation": "Correct the component."
+    }
+  ],
+  "guard_notes": [],
+  "guard_interventions": [],
+  "coverage_complete": true,
+  "draft_valid": true,
+  "model_draft": {
+    "disposition": "not_ready",
+    "finding_ids": [
+      "COMPONENT_SHAPE_0"
+    ]
+  },
+  "latency_ms": 5.102,
+  "study_metadata": {
+    "case_id": "c0031",
+    "split": "heldout",
+    "mode": "baseline",
+    "repeat": 2,
+    "freeze_sha256": "70258896ad3335b10dd19217d819c7dbd25934615091612bc0b260314047055f"
+  },
+  "results": {
+    "inspect_evidence_package": {
+      "tool": "inspect_evidence_package",
+      "inventory": [
+        {
+          "artifact": "manifest.json",
+          "sha256": "fc7ae54f7e853f4ebbf8ca50d74afdce9f3e42e30e58e82dd6e03298f7b68ef1"
+        },
+        {
+          "artifact": "interface.json",
+          "sha256": "d33ceb343afaec32d42f434df975ad1c5fd1c418e9f28622ab5898156fd7e066"
+        },
+        {
+          "artifact": "sbom.json",
+          "sha256": "b7490dae5326a457b95c59a0fc50e874b04bbcc0fb3a5974d08cd72d1a36aea0"
+        },
+        {
+          "artifact": "tests.json",
+          "sha256": "32c363224e783fcd4722e76e6ea1ae9b1806f3883635cd86b289b8bcb217bbea"
+        },
+        {
+          "artifact": "provenance.json",
+          "sha256": "6dc1bc4e35da0cd5f8a9384b4e9705cf142fd3334afd35bc9fa0ea9efbeeac98"
+        }
+      ],
+      "findings": [],
+      "halt_recommended": false,
+      "priority_hint": "SBOM first",
+      "scope": "mosa-course-profile-0.1",
+      "note": "Hashes establish byte consistency, not signer authenticity."
+    },
+    "validate_interface_contract": {
+      "tool": "validate_interface_contract",
+      "findings": [],
+      "scope": "Version, endpoint, response type and dependency consistency; not complete OpenAPI validation."
+    },
+    "verify_sbom_and_advisories": {
+      "tool": "verify_sbom_and_advisories",
+      "findings": [
+        {
+          "id": "COMPONENT_SHAPE_0",
+          "artifact": "sbom.json",
+          "field": "/components/0",
+          "severity": "blocker",
+          "message": "Component must be an object.",
+          "remediation": "Correct the component."
+        }
+      ],
+      "advisories": [],
+      "advisory_mode": "synthetic dated fixture",
+      "advisory_fixture_date": "2026-10-11",
+      "scope": "Selected CycloneDX profile fields only; fixture mode is not a real vulnerability scan."
+    }
+  },
+  "events": [
+    {
+      "at": "2026-10-12T05:38:38.051142+00:00",
+      "type": "tool",
+      "tool": "inspect_evidence_package",
+      "arguments": {},
+      "reason": "Fixed baseline invokes every validator in this order.",
+      "status": "ok",
+      "latency_ms": 1.783,
+      "output": {
+        "tool": "inspect_evidence_package",
+        "inventory": [
+          {
+            "artifact": "manifest.json",
+            "sha256": "fc7ae54f7e853f4ebbf8ca50d74afdce9f3e42e30e58e82dd6e03298f7b68ef1"
+          },
+          {
+            "artifact": "interface.json",
+            "sha256": "d33ceb343afaec32d42f434df975ad1c5fd1c418e9f28622ab5898156fd7e066"
+          },
+          {
+            "artifact": "sbom.json",
+            "sha256": "b7490dae5326a457b95c59a0fc50e874b04bbcc0fb3a5974d08cd72d1a36aea0"
+          },
+          {
+            "artifact": "tests.json",
+            "sha256": "32c363224e783fcd4722e76e6ea1ae9b1806f3883635cd86b289b8bcb217bbea"
+          },
+          {
+            "artifact": "provenance.json",
+            "sha256": "6dc1bc4e35da0cd5f8a9384b4e9705cf142fd3334afd35bc9fa0ea9efbeeac98"
+          }
+        ],
+        "findings": [],
+        "halt_recommended": false,
+        "priority_hint": "SBOM first",
+        "scope": "mosa-course-profile-0.1",
+        "note": "Hashes establish byte consistency, not signer authenticity."
+      }
+    },
+    {
+      "at": "2026-10-12T05:38:38.052295+00:00",
+      "type": "tool",
+      "tool": "validate_interface_contract",
+      "arguments": {},
+      "reason": "Fixed baseline invokes every validator in this order.",
+      "status": "ok",
+      "latency_ms": 0.787,
+      "output": {
+        "tool": "validate_interface_contract",
+        "findings": [],
+        "scope": "Version, endpoint, response type and dependency consistency; not complete OpenAPI validation."
+      }
+    },
+    {
+      "at": "2026-10-12T05:38:38.053316+00:00",
+      "type": "tool",
+      "tool": "verify_sbom_and_advisories",
+      "arguments": {},
+      "reason": "Fixed baseline invokes every validator in this order.",
+      "status": "ok",
+      "latency_ms": 0.612,
+      "output": {
+        "tool": "verify_sbom_and_advisories",
+        "findings": [
+          {
+            "id": "COMPONENT_SHAPE_0",
+            "artifact": "sbom.json",
+            "field": "/components/0",
+            "severity": "blocker",
+            "message": "Component must be an object.",
+            "remediation": "Correct the component."
+          }
+        ],
+        "advisories": [],
+        "advisory_mode": "synthetic dated fixture",
+        "advisory_fixture_date": "2026-10-11",
+        "scope": "Selected CycloneDX profile fields only; fixture mode is not a real vulnerability scan."
+      }
+    },
+    {
+      "at": "2026-10-12T05:38:38.054208+00:00",
+      "type": "decision_guard",
+      "disposition": "not_ready",
+      "notes": []
+    }
+  ]
+}

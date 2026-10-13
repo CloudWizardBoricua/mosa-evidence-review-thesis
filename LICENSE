@@ -1,0 +1,15 @@
+Copyright 2026 Daren Jadiel Diaz. All rights reserved.
+
+This repository is a public research and committee reading resource. Publication
+does not grant a general license to reuse or redistribute the thesis, newly
+authored prose, newly authored software, figures, or study materials. Contact the
+author for reuse permission. Rights that apply under law remain unaffected.
+
+Inherited materials retain their original notices. In particular, the files in
+prototypes/legacy-harness/ retain the supplied LICENSE.txt and CITATION.cff.
+Those two files contain conflicting license statements. The citation file's MIT
+label is metadata and is not adopted as a repository-wide license. This
+repository does not resolve that inherited conflict or relicense the artifact.
+
+Third-party dependencies and their notices retain their respective licenses.
+No university endorsement or approval is implied by publication.

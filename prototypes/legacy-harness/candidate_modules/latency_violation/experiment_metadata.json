@@ -1,0 +1,5 @@
+{
+  "candidate": "latency_violation",
+  "fault_class": "latency_violation",
+  "expected_conformant": false
+}

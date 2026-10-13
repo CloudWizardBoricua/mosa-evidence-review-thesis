@@ -1,0 +1,69 @@
+{
+  "run_id": "8a152ab4611743a8ab88ddfeabd1543b",
+  "case_id": "c0019",
+  "split": "development",
+  "mode": "adaptive",
+  "repeat": 2,
+  "dataset": "study40",
+  "created_at": "2026-10-12T05:38:37.299015+00:00",
+  "status": "completed",
+  "failure_kind": null,
+  "raw_disposition": "not_ready",
+  "fallback_disposition": null,
+  "guarded_disposition": "not_ready",
+  "findings": [
+    {
+      "id": "PARSE_INTERFACE",
+      "artifact": "interface.json",
+      "field": "/",
+      "message": "Artifact is malformed, unsafe, or outside the intake limits.",
+      "remediation": "Supply a JSON object within the documented intake profile.",
+      "severity": "blocker",
+      "citation_valid": true
+    }
+  ],
+  "events": [
+    {
+      "type": "tool",
+      "tool": "inspect_evidence_package",
+      "status": "ok",
+      "reason": "Inspect evidence before choosing further checks."
+    },
+    {
+      "type": "decision_guard"
+    }
+  ],
+  "guard_notes": [],
+  "guard_interventions": [],
+  "metrics": {
+    "elapsed_ms": 2.65,
+    "tool_invocations": 1,
+    "tokens": 0,
+    "cost_usd": 0.0
+  },
+  "sources": [
+    {
+      "artifact": "manifest.json",
+      "url": "https://github.com/CloudWizardBoricua/mosa-evidence-review-thesis/blob/main/evidence/study40/packages/c0019/manifest.json"
+    },
+    {
+      "artifact": "interface.json",
+      "url": "https://github.com/CloudWizardBoricua/mosa-evidence-review-thesis/blob/main/evidence/study40/packages/c0019/interface.json"
+    },
+    {
+      "artifact": "sbom.json",
+      "url": "https://github.com/CloudWizardBoricua/mosa-evidence-review-thesis/blob/main/evidence/study40/packages/c0019/sbom.json"
+    },
+    {
+      "artifact": "tests.json",
+      "url": "https://github.com/CloudWizardBoricua/mosa-evidence-review-thesis/blob/main/evidence/study40/packages/c0019/tests.json"
+    },
+    {
+      "artifact": "provenance.json",
+      "url": "https://github.com/CloudWizardBoricua/mosa-evidence-review-thesis/blob/main/evidence/study40/packages/c0019/provenance.json"
+    }
+  ],
+  "limitations": [
+    "Synthetic research profile with a dated invented advisory fixture. This result is not official MOSA certification."
+  ]
+}

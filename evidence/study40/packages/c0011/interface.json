@@ -1,0 +1,11 @@
+{
+  "openapi": "3.2.0",
+  "info": {
+    "title": "MOSA Demo Interface",
+    "version": "1.0.0"
+  },
+  "paths": {},
+  "x-mosa-dependencies": [
+    "demo-parser"
+  ]
+}

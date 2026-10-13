@@ -1,0 +1,30 @@
+{
+  "system-topology": {
+    "path": "../docs/assets/diagrams/system_topology.png",
+    "max_height_inches": 4.5
+  },
+  "review-sequence": {
+    "path": "../docs/assets/diagrams/review_sequence.png",
+    "max_height_inches": 4.5
+  },
+  "approval-rollback": {
+    "path": "../docs/assets/diagrams/approval_rollback.png",
+    "max_height_inches": 4.5
+  },
+  "migration": {
+    "path": "../docs/assets/diagrams/migration.png",
+    "max_height_inches": 4.5
+  },
+  "benchmark-split": {
+    "path": "../docs/assets/figures/benchmark_split.png",
+    "max_height_inches": 4.3
+  },
+  "accuracy-chart": {
+    "path": "../docs/assets/figures/accuracy.png",
+    "max_height_inches": 4.3
+  },
+  "effort-latency-cost": {
+    "path": "../docs/assets/figures/effort_latency_cost.png",
+    "max_height_inches": 3.7
+  }
+}

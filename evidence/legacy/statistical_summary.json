@@ -1,0 +1,155 @@
+{
+  "methods": {
+    "baseline": {
+      "sensitivity": 0.2777777777777778,
+      "sensitivity_count": [
+        5,
+        18
+      ],
+      "sensitivity_wilson_95": [
+        0.12499753379553993,
+        0.5087265656029747
+      ],
+      "specificity": 1.0,
+      "specificity_count": [
+        2,
+        2
+      ],
+      "specificity_wilson_95": [
+        0.342380227506653,
+        1.0
+      ],
+      "diagnostic_accuracy": 0.2777777777777778,
+      "diagnostic_accuracy_count": [
+        5,
+        18
+      ],
+      "mean_evidence_completeness_controls": 0.5,
+      "median_duration_ms_primary": 0.3480075,
+      "median_checks": 14.0,
+      "control_median_duration_ms": 0.2988635,
+      "control_p95_duration_ms": 0.5339936999999999
+    },
+    "harness": {
+      "sensitivity": 1.0,
+      "sensitivity_count": [
+        18,
+        18
+      ],
+      "sensitivity_wilson_95": [
+        0.8241207763533424,
+        1.0
+      ],
+      "specificity": 1.0,
+      "specificity_count": [
+        2,
+        2
+      ],
+      "specificity_wilson_95": [
+        0.342380227506653,
+        1.0
+      ],
+      "diagnostic_accuracy": 1.0,
+      "diagnostic_accuracy_count": [
+        18,
+        18
+      ],
+      "mean_evidence_completeness_controls": 1.0,
+      "median_duration_ms_primary": 7.041947,
+      "median_checks": 177.0,
+      "control_median_duration_ms": 5.693567,
+      "control_p95_duration_ms": 6.94274795
+    }
+  },
+  "pairwise": {
+    "mcnemar_table": [
+      [
+        7,
+        0
+      ],
+      [
+        13,
+        0
+      ]
+    ],
+    "mcnemar_exact_p": 0.000244140625,
+    "timing_wilcoxon_statistic": 210.0,
+    "timing_wilcoxon_p": 9.5367431640625e-07,
+    "timing_cliffs_delta": 0.905,
+    "median_candidate_runtime_difference_ms": 5.553929500000001,
+    "median_candidate_runtime_ratio": 19.97784830177175,
+    "primary_median_runtime_ratio": 20.235043784975897
+  },
+  "reliability": {
+    "baseline": {
+      "decision_stability": 1.0,
+      "median_duration_ms": 0.2868195,
+      "p95_duration_ms": 20.34018915,
+      "iqr_duration_ms": [
+        0.25170075000000003,
+        0.35601875
+      ]
+    },
+    "harness": {
+      "decision_stability": 1.0,
+      "median_duration_ms": 5.8627839999999996,
+      "p95_duration_ms": 153.15871469995082,
+      "iqr_duration_ms": [
+        5.580698,
+        6.352379
+      ],
+      "digest_stability_all_candidates": 0.9,
+      "digest_stability_controls": 1.0
+    }
+  },
+  "weight_sensitivity": {
+    "draws": 10000,
+    "score_only_pass_probability": {
+      "configuration_coupling": 0.9655,
+      "control_vendor_a": 1.0,
+      "control_vendor_b": 1.0,
+      "edge_case_exception": 1.0,
+      "event_id_not_preserved": 0.5066,
+      "forbidden_network_import": 0.3209,
+      "hidden_file_dependency": 0.8293,
+      "latency_violation": 1.0,
+      "missing_manifest": 0.2785,
+      "missing_output_field": 0.5066,
+      "missing_sbom": 0.9924,
+      "nondeterministic_output": 0.5066,
+      "provenance_hash_mismatch": 0.9339,
+      "semantic_threshold_shift": 0.9981,
+      "state_leakage": 0.5064,
+      "undeclared_dependency": 0.9924,
+      "units_error": 0.52,
+      "wrong_interface_version": 0.9339,
+      "wrong_output_type": 0.5066,
+      "wrong_schema_version": 0.5066
+    },
+    "gate_adjusted_pass_probability": {
+      "configuration_coupling": 0.0,
+      "control_vendor_a": 1.0,
+      "control_vendor_b": 1.0,
+      "edge_case_exception": 0.0,
+      "event_id_not_preserved": 0.0,
+      "forbidden_network_import": 0.0,
+      "hidden_file_dependency": 0.0,
+      "latency_violation": 0.0,
+      "missing_manifest": 0.0,
+      "missing_output_field": 0.0,
+      "missing_sbom": 0.0,
+      "nondeterministic_output": 0.0,
+      "provenance_hash_mismatch": 0.0,
+      "semantic_threshold_shift": 0.0,
+      "state_leakage": 0.0,
+      "undeclared_dependency": 0.0,
+      "units_error": 0.0,
+      "wrong_interface_version": 0.0,
+      "wrong_output_type": 0.0,
+      "wrong_schema_version": 0.0
+    },
+    "control_min_gate_adjusted_pass_probability": 1.0,
+    "fault_max_gate_adjusted_pass_probability": 0.0,
+    "fault_max_score_only_pass_probability": 1.0
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "actionable_diagnosis": "units_error",
+  "candidate": "units_error",
+  "competition_readiness_score": 100.0,
+  "composite_score": 62.76,
+  "duration_ms": 5.671711,
+  "evidence_completeness": 1.0,
+  "evidence_confidence": 1.0,
+  "evidence_digest": "1bc057c31e6606434f4b5037e993d08e82ad251c95149739a1ba2e4f410de21a",
+  "findings": [
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for E-NOM-1",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for E-NOM-2",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for E-WAT-1",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for E-WAT-2",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for E-ALT-1",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for E-ALT-2",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-0",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-1",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-2",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-3",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-4",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-5",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-6",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-7",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-8",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-9",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-10",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-11",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-12",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-13",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-14",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-15",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-16",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-17",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-18",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-19",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-20",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-21",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-22",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-23",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-24",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-25",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-26",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-27",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-28",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-29",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-30",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-31",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-32",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-33",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-34",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-35",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-36",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-37",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-38",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-39",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-40",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-41",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-42",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-43",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-44",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-45",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-46",
+      "severity": "critical"
+    },
+    {
+      "category": "units_error",
+      "code": "H-SEMANTICS",
+      "message": "Observable behavior differs for R-20260623-47",
+      "severity": "critical"
+    }
+  ],
+  "gate_failure": true,
+  "operational_score": 6.9,
+  "passed": false,
+  "security_score": 100.0,
+  "structural_score": 100.0,
+  "tests_executed": 177
+}

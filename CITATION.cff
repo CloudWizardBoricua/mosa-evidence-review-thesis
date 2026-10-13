@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this research companion and identify the draft and study version you used. The revised thesis is a research draft, not an approved thesis."
+title: "A CONFORMANCE HARNESS FOR VERIFIABLE MODULAR OPEN SYSTEMS OUTCOMES IN DEFENSE ACQUISITION: DESIGN, IMPLEMENTATION, AND CONTROLLED EVALUATION"
+type: software
+authors:
+  - family-names: "Diaz"
+    given-names: "Daren Jadiel"
+version: "0.1.0"
+date-released: "2026-10-12"
+license: "LicenseRef-Author-Rights-Retained"
+license-url: "https://github.com/CloudWizardBoricua/mosa-evidence-review-thesis/blob/main/LICENSE"
+repository-code: "https://github.com/CloudWizardBoricua/mosa-evidence-review-thesis"
+url: "https://cloudwizardboricua.github.io/mosa-evidence-review-thesis/"
+keywords:
+  - modular open systems approach
+  - evidence review
+  - human review
+  - conformance testing
+  - agent supported research

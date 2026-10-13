@@ -1,0 +1,17 @@
+{
+  "actionable_diagnosis": null,
+  "candidate": "control_vendor_b",
+  "competition_readiness_score": 100.0,
+  "composite_score": 100.0,
+  "duration_ms": 6.532687,
+  "evidence_completeness": 1.0,
+  "evidence_confidence": 1.0,
+  "evidence_digest": "3efa6ce9b9963bfcd30545e8a38c405d09c1b81c71be19d335da61b3bbc1e9f9",
+  "findings": [],
+  "gate_failure": false,
+  "operational_score": 100.0,
+  "passed": true,
+  "security_score": 100.0,
+  "structural_score": 100.0,
+  "tests_executed": 177
+}

@@ -1,0 +1,11 @@
+{
+  "module_name": "forbidden_network_import",
+  "module_version": "1.0.0",
+  "vendor": "Vendor C",
+  "interface_version": "1.0",
+  "entry_point": "processor.py:process_event",
+  "declared_dependencies": [],
+  "source_sha256": "1bd8f7db703581602341de96e765c899abe42c272b1958a908ebf200c89b6044",
+  "sbom": "sbom.json",
+  "data_rights": "government-purpose-rights"
+}

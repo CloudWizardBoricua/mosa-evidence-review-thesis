@@ -1,0 +1,19 @@
+flowchart TD
+    Start["Read evidence"]:::evidence
+    Choose["Choose check"]:::agent
+    Check["Tool result"]:::evidence
+    More["Another check?"]:::review
+    Draft["Raw report"]:::agent
+    Guard["Fixed guard"]:::evidence
+    Ready["Ready"]:::ready
+    Review["Further review"]:::review
+    Blocked["Not ready"]:::blocked
+    Start --> Choose --> Check --> More
+    More -->|Yes| Choose
+    More -->|No| Draft --> Guard
+    Guard --> Ready & Review & Blocked
+    classDef evidence fill:#e8f1fb,stroke:#1565c0,color:#102f53
+    classDef agent fill:#f0e6fa,stroke:#6a1b9a,color:#431263
+    classDef review fill:#fff2d4,stroke:#9a6200,color:#563600
+    classDef ready fill:#e4f3e8,stroke:#24713a,color:#164724
+    classDef blocked fill:#f8e8ea,stroke:#841617,color:#641113

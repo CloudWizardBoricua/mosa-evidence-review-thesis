@@ -1,0 +1,5 @@
+{
+  "candidate": "forbidden_network_import",
+  "fault_class": "forbidden_network_import",
+  "expected_conformant": false
+}

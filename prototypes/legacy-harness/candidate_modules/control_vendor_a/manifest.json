@@ -1,0 +1,11 @@
+{
+  "module_name": "control_vendor_a",
+  "module_version": "1.0.0",
+  "vendor": "Vendor A",
+  "interface_version": "1.0",
+  "entry_point": "processor.py:process_event",
+  "declared_dependencies": [],
+  "source_sha256": "2f0d1e7aa184594305f9b896cb63d9700c82fd9c94623175cfa4df90fd3270bf",
+  "sbom": "sbom.json",
+  "data_rights": "government-purpose-rights"
+}

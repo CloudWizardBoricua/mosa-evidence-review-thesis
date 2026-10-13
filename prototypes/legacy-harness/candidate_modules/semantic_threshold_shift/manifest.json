@@ -1,0 +1,11 @@
+{
+  "module_name": "semantic_threshold_shift",
+  "module_version": "1.0.0",
+  "vendor": "Vendor C",
+  "interface_version": "1.0",
+  "entry_point": "processor.py:process_event",
+  "declared_dependencies": [],
+  "source_sha256": "6f86d144643222c6f2071210ab1eec78254ea42c2ba2657bea04f8609695bd51",
+  "sbom": "sbom.json",
+  "data_rights": "government-purpose-rights"
+}

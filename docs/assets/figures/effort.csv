@@ -1,0 +1,4 @@
+method,value,unit,completed_runs,planned_runs,recorded_runs,failed_runs,eligible_for_comparison
+Fixed,180,Actual validator invocations,60,60,60,0,True
+Adaptive rules,162,Actual validator invocations,60,60,60,0,True
+Model agent,,Actual validator invocations,0,60,1,1,False

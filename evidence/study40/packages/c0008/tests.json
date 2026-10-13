@@ -1,0 +1,7 @@
+{
+  "module_id": "mosa-demo-module",
+  "build_id": "build-001",
+  "total": 12,
+  "passed": 11,
+  "failed": 1
+}

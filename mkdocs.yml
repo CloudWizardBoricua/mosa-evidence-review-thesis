@@ -1,0 +1,63 @@
+site_name: MOSA Evidence Review Thesis
+site_description: A plain language companion to a revised research draft about modular systems, evidence review, and agent supported decisions.
+site_author: Daren Jadiel Diaz
+site_url: https://cloudwizardboricua.github.io/mosa-evidence-review-thesis/
+repo_url: https://github.com/CloudWizardBoricua/mosa-evidence-review-thesis
+repo_name: CloudWizardBoricua/mosa-evidence-review-thesis
+edit_uri: ''
+strict: true
+theme:
+  name: material
+  language: en
+  font: false
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Use dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Use light mode
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+extra_css:
+  - assets/stylesheets/thesis.css
+extra_javascript:
+  - assets/javascripts/readers.js
+nav:
+  - Start Here: index.md
+  - Read the Thesis: thesis.md
+  - Follow One Review: review.md
+  - Compare Results: results.md
+  - Understand the Terms: glossary.md
+  - Reproduce the Study: reproduce.md
+  - Research Design: research-design.md
+  - System Diagrams: diagrams.md
+  - What Changed: changes.md
+  - Migration Guide: migration.md
+  - Sources and Rights: sources.md
+copyright: Copyright 2026 Daren Jadiel Diaz. Author rights retained.

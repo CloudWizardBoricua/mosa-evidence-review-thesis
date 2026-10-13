@@ -1,0 +1,10 @@
+{
+  "source": "synthetic course fixture",
+  "created_at": "2026-10-11T12:00:00-05:00",
+  "hashes": {
+    "manifest.json": "5e50a29a0e3309c0e9326361f010b043d31aa77d37d7c74fcb8a14f5cc870552",
+    "interface.json": "68399ec812161ecd0dc2a59a533bb36949a1ecdbcf6ec6b2aa368d349b04aaf2",
+    "sbom.json": "700991994afb8238bdaf004d5e1da293f5968013db773bac24e3e613ef5f7ed7",
+    "tests.json": "7dbba400774068d9dff4ff356041d28f52a0fc78e774b8fd39fc6112e11b21aa"
+  }
+}

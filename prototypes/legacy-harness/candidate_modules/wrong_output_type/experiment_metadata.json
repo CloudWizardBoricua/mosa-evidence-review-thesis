@@ -1,0 +1,5 @@
+{
+  "candidate": "wrong_output_type",
+  "fault_class": "wrong_output_type",
+  "expected_conformant": false
+}

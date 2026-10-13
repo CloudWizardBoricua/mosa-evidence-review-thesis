@@ -1,0 +1,5 @@
+{
+  "candidate": "provenance_hash_mismatch",
+  "fault_class": "provenance_hash_mismatch",
+  "expected_conformant": false
+}

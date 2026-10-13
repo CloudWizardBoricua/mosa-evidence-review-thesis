@@ -1,0 +1,18 @@
+test_fault_has_exact_artifact_pointer (test_review.ReviewTests.test_fault_has_exact_artifact_pointer) ... ok
+test_hosted_protocol_adapts_and_includes_tool_definitions (test_review.ReviewTests.test_hosted_protocol_adapts_and_includes_tool_definitions) ... ok
+test_input_path_is_bounded (test_review.ReviewTests.test_input_path_is_bounded) ... ok
+test_invented_finding_blocked (test_review.ReviewTests.test_invented_finding_blocked) ... ok
+test_missing_evidence_halts_safely (test_review.ReviewTests.test_missing_evidence_halts_safely) ... ok
+test_model_failure_remains_a_draft (test_review.ReviewTests.test_model_failure_remains_a_draft) ... ok
+test_premature_ready_cannot_be_approved (test_review.ReviewTests.test_premature_ready_cannot_be_approved) ... ok
+test_ready_end_to_end_is_draft (test_review.ReviewTests.test_ready_end_to_end_is_draft) ... ok
+test_rejection_and_revision_do_not_publish (test_review.ReviewTests.test_rejection_and_revision_do_not_publish) ... ok
+test_retry_is_bounded_and_error_does_not_expose_credentials (test_review.ReviewTests.test_retry_is_bounded_and_error_does_not_expose_credentials) ... ok
+test_rollback_restores_previous_and_keeps_history (test_review.ReviewTests.test_rollback_restores_previous_and_keeps_history) ... ok
+test_source_change_blocks_approval (test_review.ReviewTests.test_source_change_blocks_approval) ... ok
+test_tool_failure_preserves_last_approval (test_review.ReviewTests.test_tool_failure_preserves_last_approval) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.143s
+
+OK

@@ -1,0 +1,5 @@
+{
+  "candidate": "missing_sbom",
+  "fault_class": "missing_sbom",
+  "expected_conformant": false
+}

@@ -1,0 +1,30 @@
+{
+  "actionable_diagnosis": "forbidden_network_import",
+  "candidate": "forbidden_network_import",
+  "competition_readiness_score": 75.0,
+  "composite_score": 86.25,
+  "duration_ms": 10.096576,
+  "evidence_completeness": 1.0,
+  "evidence_confidence": 1.0,
+  "evidence_digest": "26abd9ab56ea1ce17e0c4bae3af4a72d6f57ce214d8cf63ed600fe746b6cae58",
+  "findings": [
+    {
+      "category": "undeclared_dependency",
+      "code": "H-DEPENDENCY",
+      "message": "Undeclared dependencies: ['socket']",
+      "severity": "high"
+    },
+    {
+      "category": "forbidden_network_import",
+      "code": "H-NETWORK",
+      "message": "Forbidden network imports: ['socket']",
+      "severity": "critical"
+    }
+  ],
+  "gate_failure": true,
+  "operational_score": 100.0,
+  "passed": false,
+  "security_score": 0.0,
+  "structural_score": 100.0,
+  "tests_executed": 177
+}

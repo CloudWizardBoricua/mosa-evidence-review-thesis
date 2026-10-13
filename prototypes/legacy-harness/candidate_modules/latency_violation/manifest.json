@@ -1,0 +1,11 @@
+{
+  "module_name": "latency_violation",
+  "module_version": "1.0.0",
+  "vendor": "Vendor C",
+  "interface_version": "1.0",
+  "entry_point": "processor.py:process_event",
+  "declared_dependencies": [],
+  "source_sha256": "e20831e6605e1dec8f268216d81a3b3c46f9dca2e95cb7ef4bee2de14cbd005b",
+  "sbom": "sbom.json",
+  "data_rights": "government-purpose-rights"
+}

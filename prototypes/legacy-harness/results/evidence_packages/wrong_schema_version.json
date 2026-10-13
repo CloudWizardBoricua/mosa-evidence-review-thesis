@@ -1,0 +1,354 @@
+{
+  "actionable_diagnosis": "wrong_schema_version",
+  "candidate": "wrong_schema_version",
+  "competition_readiness_score": 100.0,
+  "composite_score": 61.38,
+  "duration_ms": 7.775009,
+  "evidence_completeness": 1.0,
+  "evidence_confidence": 1.0,
+  "evidence_digest": "5f463ede16ab8b31723609be8c928e8e48f9946c41d78ebc86d53ae6ad103ef8",
+  "findings": [
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector E-NOM-1: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector E-NOM-2: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector E-WAT-1: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector E-WAT-2: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector E-ALT-1: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector E-ALT-2: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector E-EDGE-LOW: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector E-EDGE-HIGH: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-0: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-1: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-2: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-3: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-4: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-5: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-6: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-7: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-8: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-9: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-10: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-11: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-12: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-13: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-14: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-15: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-16: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-17: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-18: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-19: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-20: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-21: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-22: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-23: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-24: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-25: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-26: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-27: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-28: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-29: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-30: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-31: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-32: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-33: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-34: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-35: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-36: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-37: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-38: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-39: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-40: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-41: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-42: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-43: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-44: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-45: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-46: '1.0' was expected",
+      "severity": "critical"
+    },
+    {
+      "category": "wrong_schema_version",
+      "code": "H-OUTPUT-SCHEMA",
+      "message": "Vector R-20260623-47: '1.0' was expected",
+      "severity": "critical"
+    }
+  ],
+  "gate_failure": true,
+  "operational_score": 3.45,
+  "passed": false,
+  "security_score": 100.0,
+  "structural_score": 100.0,
+  "tests_executed": 121
+}

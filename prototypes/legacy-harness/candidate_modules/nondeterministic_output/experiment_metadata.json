@@ -1,0 +1,5 @@
+{
+  "candidate": "nondeterministic_output",
+  "fault_class": "nondeterministic_output",
+  "expected_conformant": false
+}

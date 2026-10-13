@@ -1,0 +1,35 @@
+{
+  "limit_usd": "5",
+  "accounted_usd": "0.00936056",
+  "reported_usd": "0",
+  "pricing": {
+    "prompt": "4.4E-7",
+    "completion": "0.00000176",
+    "request": "0",
+    "model": "openai/gpt-4.1-mini",
+    "source": "https://openrouter.ai/api/v1/models/openai/gpt-4.1-mini/endpoints",
+    "checked_at": "2026-10-12T05:31:54.612770+00:00",
+    "endpoint_count": 3,
+    "inactive_feature_rates": {
+      "image": "0",
+      "web_search": "0.01",
+      "audio": "0",
+      "input_audio_cache": "0",
+      "input_audio": "0"
+    },
+    "routing_price_cap_source": "https://openrouter.ai/docs/guides/routing/provider-selection#max-price"
+  },
+  "stop_reason": "Request failed and its provider charge is unknown",
+  "events": [
+    {
+      "id": 0,
+      "reserved_usd": "0.00936056",
+      "one_attempt_bound_usd": "0.00468028",
+      "input_token_bound": 5837,
+      "output_token_bound": 1200,
+      "status": "failed_cost_unknown",
+      "attempts": 1,
+      "reported_usd": null
+    }
+  ]
+}

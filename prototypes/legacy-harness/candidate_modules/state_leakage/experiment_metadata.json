@@ -1,0 +1,5 @@
+{
+  "candidate": "state_leakage",
+  "fault_class": "state_leakage",
+  "expected_conformant": false
+}

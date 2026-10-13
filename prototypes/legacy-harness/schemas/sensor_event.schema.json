@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/mosa/sensor-event-1.0.schema.json",
+  "title": "MOSA Sensor Event 1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "event_id",
+    "timestamp_ms",
+    "sensor_id",
+    "temperature_c",
+    "signal_strength",
+    "quality"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "timestamp_ms": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sensor_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "temperature_c": {
+      "type": "number",
+      "minimum": -50,
+      "maximum": 150
+    },
+    "signal_strength": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "quality": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    }
+  }
+}

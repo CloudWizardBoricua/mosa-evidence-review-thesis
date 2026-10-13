@@ -1,0 +1,11 @@
+{
+  "module_name": "event_id_not_preserved",
+  "module_version": "1.0.0",
+  "vendor": "Vendor C",
+  "interface_version": "1.0",
+  "entry_point": "processor.py:process_event",
+  "declared_dependencies": [],
+  "source_sha256": "2fca982f604bd181cbce72451ca4ad8060efe428ccb1332e7168dd0a98b67c79",
+  "sbom": "sbom.json",
+  "data_rights": "government-purpose-rights"
+}

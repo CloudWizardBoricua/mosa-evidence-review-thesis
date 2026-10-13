@@ -1,0 +1,4 @@
+method,value,unit,completed_runs,planned_runs,recorded_runs,failed_runs,eligible_for_comparison
+Fixed,5.009,Median elapsed milliseconds,60,60,60,0,True
+Adaptive rules,4.968500000000001,Median elapsed milliseconds,60,60,60,0,True
+Model agent,,Median elapsed milliseconds,0,60,1,1,False

@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "source_hashes": {
+    "summary_sha256": "cbd8f5cab441649cd9b6376359aca11f3169e1fdbb5d583a138c1f02c014cec6",
+    "rows_sha256": "7248c9c5b948df8127535f1fbdc55928f3d4524555c03e8faebe62655737b25d",
+    "labels_sha256": "2966beed233f094e1f03759a65bbca6ce431385526a14f176015611e00b2bb07",
+    "freeze_sha256": "70258896ad3335b10dd19217d819c7dbd25934615091612bc0b260314047055f"
+  },
+  "figures": [
+    {
+      "id": "accuracy",
+      "title": "Recommendation match",
+      "caption": "Twenty unique additional cases, first scheduled repetition. Guarded error bars show the Wilson 95 percent interval. Model accuracy is not estimated.",
+      "files": [
+        {
+          "path": "accuracy.png",
+          "sha256": "031be03b7778a6fa3fb00d57ee7ba4692ca848b3e575c0547240a69d9d83ccd9"
+        },
+        {
+          "path": "accuracy.svg",
+          "sha256": "bbd3a244709c277377e3e877f221f93fd9c9ddd8ba0c0243876fda2dea86d046"
+        }
+      ],
+      "table": "accuracy.csv"
+    },
+    {
+      "id": "effort",
+      "title": "Validation effort",
+      "caption": "Actual validator invocations across all three repetitions on 20 additional cases. Only full method schedules are comparable. A failed model request is not a zero-effort successful review.",
+      "files": [
+        {
+          "path": "effort.png",
+          "sha256": "a60051135a343dde511e8f2d08b1fad5c305c3b051aa88778ea688df8e8eed16"
+        },
+        {
+          "path": "effort.svg",
+          "sha256": "6e3391f669872c8bfa79b34f56d557e8afe472b47c12bd55ff336656898838a2"
+        }
+      ],
+      "table": "effort.csv"
+    },
+    {
+      "id": "latency",
+      "title": "Completed review time",
+      "caption": "Median elapsed milliseconds among completed reviews of additional cases. Whiskers show the middle half of observed times, not a confidence interval. Failed requests are excluded from successful-review timing.",
+      "files": [
+        {
+          "path": "latency.png",
+          "sha256": "29f4e39fc7e05b20f1756d24a580f6d12914c4fc994c2de91b0958343ed850f4"
+        },
+        {
+          "path": "latency.svg",
+          "sha256": "8874be19bd102eea1e644cba518dd52fd4602dc1a26bc315990b6a5d1617127d"
+        }
+      ],
+      "table": "latency.csv"
+    },
+    {
+      "id": "cost",
+      "title": "Completed review provider charges",
+      "caption": "Provider charges for completed additional-case reviews. Offline methods make no provider requests. An unresolved model charge is unknown, even when the ledger reports no billed amount.",
+      "files": [
+        {
+          "path": "cost.png",
+          "sha256": "71164e71b0df85f6f17938a47b5a64609df87c7e6929e7ffe4b326fb83707c70"
+        },
+        {
+          "path": "cost.svg",
+          "sha256": "eadc50fde60599c371ffb81f25ceba64b06f5ad12e94132a99f4d2df8cb2265a"
+        }
+      ],
+      "table": "cost.csv"
+    },
+    {
+      "id": "case_outcomes",
+      "title": "First-run outcome table",
+      "caption": "Outcome table for the first scheduled repetition on each additional case. R means ready, B means a blocking problem, V means further review. Error marks the failed request; N/A marks an unattempted review. Colors supplement text.",
+      "files": [
+        {
+          "path": "case_outcomes.png",
+          "sha256": "a9b25d63c8a6874c103e8e7c4ce3d6e44d26414180e84f46ff44422e8e75e02d"
+        },
+        {
+          "path": "case_outcomes.svg",
+          "sha256": "20c2363dc7857d8a960a5d9007869c1490e15db8233ebfaf700182ed3e096b98"
+        }
+      ],
+      "table": "case_outcomes.csv"
+    },
+    {
+      "id": "benchmark_split",
+      "title": "Benchmark case categories",
+      "caption": "Forty synthetic cases. Expected categories stay outside model inputs. Independent label review is pending.",
+      "files": [
+        {
+          "path": "benchmark_split.png",
+          "sha256": "1824cfd0c4339a38c6db569cfc59fb0d35812c4e2c8e0830419a913557f5d9bf"
+        },
+        {
+          "path": "benchmark_split.svg",
+          "sha256": "d33543dc6c69ea5b72076a549d62d24aa477e7cf781f980d042012281ccb7fba"
+        }
+      ],
+      "table": "benchmark_split.csv"
+    },
+    {
+      "id": "effort_latency_cost",
+      "title": "Effort time and cost",
+      "caption": "Three repetitions on 20 additional cases. The failed model request provides no comparable effort, review time, or provider charge estimate.",
+      "files": [
+        {
+          "path": "effort_latency_cost.png",
+          "sha256": "65808a8f2de20d08dd3b6acd06a065f47201519a0553163e8c523612e50e97eb"
+        },
+        {
+          "path": "effort_latency_cost.svg",
+          "sha256": "1b44e95ee04e6443bdcb943826706c6b71ff2ebe7f05b8fe0f76e17cfe0fd9c0"
+        }
+      ],
+      "table": "effort_latency_cost.csv"
+    }
+  ],
+  "model_status": "Comparison incomplete. Failed attempts are retained in records and excluded from successful-review performance estimates."
+}

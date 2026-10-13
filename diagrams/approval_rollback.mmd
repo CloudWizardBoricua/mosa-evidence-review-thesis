@@ -1,0 +1,18 @@
+flowchart TD
+    Saved["Saved report"]:::evidence
+    Person["Human review"]:::review
+    Changed["Source changed?"]:::review
+    Rerun["Review again"]:::blocked
+    Approved["Record approval"]:::evidence
+    Later["Rollback?"]:::review
+    Restore["Restore prior"]:::evidence
+    Keep["Keep current"]:::evidence
+    Saved --> Person --> Changed
+    Changed -->|Yes| Rerun
+    Changed -->|No, approved| Approved --> Later
+    Later -->|Yes| Restore
+    Later -->|No| Keep
+    classDef evidence fill:#e8f1fb,stroke:#1565c0,color:#102f53
+    classDef review fill:#fff2d4,stroke:#9a6200,color:#563600
+    classDef ready fill:#e4f3e8,stroke:#24713a,color:#164724
+    classDef blocked fill:#f8e8ea,stroke:#841617,color:#641113

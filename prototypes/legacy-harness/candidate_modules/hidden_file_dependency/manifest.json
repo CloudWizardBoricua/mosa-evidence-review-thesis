@@ -1,0 +1,11 @@
+{
+  "module_name": "hidden_file_dependency",
+  "module_version": "1.0.0",
+  "vendor": "Vendor C",
+  "interface_version": "1.0",
+  "entry_point": "processor.py:process_event",
+  "declared_dependencies": [],
+  "source_sha256": "7addbf68608a7ff55d70a0282c1ceee6f310b35979ed8d742c88d5bdb6c6e27f",
+  "sbom": "sbom.json",
+  "data_rights": "government-purpose-rights"
+}

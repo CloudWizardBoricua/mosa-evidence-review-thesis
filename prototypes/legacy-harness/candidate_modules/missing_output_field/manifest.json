@@ -1,0 +1,11 @@
+{
+  "module_name": "missing_output_field",
+  "module_version": "1.0.0",
+  "vendor": "Vendor C",
+  "interface_version": "1.0",
+  "entry_point": "processor.py:process_event",
+  "declared_dependencies": [],
+  "source_sha256": "d9b6db03add36da66261b9ab69703c939067a344ca6557215292abe80a9aa1c8",
+  "sbom": "sbom.json",
+  "data_rights": "government-purpose-rights"
+}

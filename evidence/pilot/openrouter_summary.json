@@ -1,0 +1,20 @@
+{
+  "mode": "openrouter",
+  "cases": 20,
+  "labels_sha256": "ac731108efb820e59e68d8dbf3ee07314ad80990ab46d4a8b9273e1354e2bcad",
+  "disposition_correct": 20,
+  "raw_disposition_correct": 17,
+  "fault_localization_correct": 17,
+  "faulted_cases": 17,
+  "source_unchanged": 20,
+  "cited_cases": 20,
+  "tool_precision": 1.0,
+  "tool_recall": 0.9807692307692307,
+  "total_tool_calls": 51,
+  "model_calls": 71,
+  "input_tokens": 42016,
+  "output_tokens": 2354,
+  "median_latency_ms": 3916.684,
+  "max_latency_ms": 5571.488,
+  "limitations": "Synthetic development fixtures, single local execution, profile checks only. Not independent MOSA certification evidence."
+}

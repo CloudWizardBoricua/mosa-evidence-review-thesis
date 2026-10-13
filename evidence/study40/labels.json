@@ -1,0 +1,660 @@
+{
+  "set": "thesis-study40-v1",
+  "cases": [
+    {
+      "case_id": "c0001",
+      "package": "c0001",
+      "split": "heldout",
+      "disposition": "not_ready",
+      "fault_ids": [
+        "TEST_COUNTS"
+      ],
+      "purpose": "Test totals do not add up",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ]
+    },
+    {
+      "case_id": "c0002",
+      "package": "c0002",
+      "split": "heldout",
+      "disposition": "not_ready",
+      "fault_ids": [
+        "INTERFACE_SHAPE"
+      ],
+      "purpose": "Interface paths has the wrong structure",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ]
+    },
+    {
+      "case_id": "c0003",
+      "package": "c0003",
+      "split": "heldout",
+      "disposition": "not_ready",
+      "fault_ids": [
+        "INTERFACE_VERSION",
+        "TEST_FAILURES"
+      ],
+      "purpose": "Two known faults occur together",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ]
+    },
+    {
+      "case_id": "c0004",
+      "package": "c0004",
+      "split": "heldout",
+      "disposition": "not_ready",
+      "fault_ids": [
+        "RESPONSE_TYPE_0"
+      ],
+      "purpose": "Nested response type is absent",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ]
+    },
+    {
+      "disposition": "needs_review",
+      "fault_ids": [
+        "TOOL_UNAVAILABLE_2"
+      ],
+      "purpose": "SBOM validator unavailable",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ],
+      "disabled_tool": "verify_sbom_and_advisories",
+      "case_id": "c0005",
+      "package": "c0005",
+      "split": "development",
+      "origin": "checkpoint case 20_tool_unavailable"
+    },
+    {
+      "disposition": "not_ready",
+      "fault_ids": [
+        "SBOM_FORMAT"
+      ],
+      "purpose": "Wrong SBOM format",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0006",
+      "package": "c0006",
+      "split": "development",
+      "origin": "checkpoint case 11_sbom_format"
+    },
+    {
+      "case_id": "c0007",
+      "package": "c0007",
+      "split": "heldout",
+      "disposition": "ready",
+      "fault_ids": [],
+      "purpose": "Additional valid package variant",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ]
+    },
+    {
+      "disposition": "not_ready",
+      "fault_ids": [
+        "TEST_FAILURES"
+      ],
+      "purpose": "Recorded failing tests",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0008",
+      "package": "c0008",
+      "split": "development",
+      "origin": "checkpoint case 16_test_failures"
+    },
+    {
+      "disposition": "not_ready",
+      "fault_ids": [
+        "INTERFACE_VERSION"
+      ],
+      "purpose": "Interface version mismatch",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0009",
+      "package": "c0009",
+      "split": "development",
+      "origin": "checkpoint case 03_interface_version"
+    },
+    {
+      "disposition": "ready",
+      "fault_ids": [],
+      "purpose": "Conformant alternate build control",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0010",
+      "package": "c0010",
+      "split": "development",
+      "origin": "checkpoint case 02_ready_alternate"
+    },
+    {
+      "disposition": "not_ready",
+      "fault_ids": [
+        "ENDPOINT_MISSING_0"
+      ],
+      "purpose": "Missing contract endpoint",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0011",
+      "package": "c0011",
+      "split": "development",
+      "origin": "checkpoint case 04_missing_endpoint"
+    },
+    {
+      "case_id": "c0012",
+      "package": "c0012",
+      "split": "heldout",
+      "disposition": "ready",
+      "fault_ids": [],
+      "purpose": "Additional valid package variant",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ]
+    },
+    {
+      "disposition": "not_ready",
+      "fault_ids": [
+        "INTERFACE_DEPENDENCIES"
+      ],
+      "purpose": "Dependency mismatch",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0013",
+      "package": "c0013",
+      "split": "development",
+      "origin": "checkpoint case 06_dependencies"
+    },
+    {
+      "disposition": "not_ready",
+      "fault_ids": [
+        "COMPONENT_VERSION_0"
+      ],
+      "purpose": "Missing component version",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0014",
+      "package": "c0014",
+      "split": "development",
+      "origin": "checkpoint case 12_component_version"
+    },
+    {
+      "disposition": "not_ready",
+      "fault_ids": [
+        "TEST_BUILD_ID"
+      ],
+      "purpose": "Tests identify a different build",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0015",
+      "package": "c0015",
+      "split": "development",
+      "origin": "checkpoint case 15_test_build"
+    },
+    {
+      "disposition": "ready",
+      "fault_ids": [],
+      "purpose": "Untrusted instruction text in ignored metadata",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0016",
+      "package": "c0016",
+      "split": "development",
+      "origin": "checkpoint case 19_injection_text"
+    },
+    {
+      "case_id": "c0017",
+      "package": "c0017",
+      "split": "heldout",
+      "disposition": "ready",
+      "fault_ids": [],
+      "purpose": "Additional valid package variant",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ]
+    },
+    {
+      "case_id": "c0018",
+      "package": "c0018",
+      "split": "heldout",
+      "disposition": "needs_review",
+      "fault_ids": [
+        "MISSING_INTERFACE"
+      ],
+      "purpose": "Additional absent artifact",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package"
+      ]
+    },
+    {
+      "disposition": "not_ready",
+      "fault_ids": [
+        "PARSE_INTERFACE"
+      ],
+      "purpose": "Malformed interface JSON",
+      "required_tools": [
+        "inspect_evidence_package"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0019",
+      "package": "c0019",
+      "split": "development",
+      "origin": "checkpoint case 10_malformed_json"
+    },
+    {
+      "case_id": "c0020",
+      "package": "c0020",
+      "split": "heldout",
+      "disposition": "ready",
+      "fault_ids": [],
+      "purpose": "Additional valid package variant",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ]
+    },
+    {
+      "disposition": "needs_review",
+      "fault_ids": [
+        "MISSING_SBOM"
+      ],
+      "purpose": "Missing SBOM",
+      "required_tools": [
+        "inspect_evidence_package"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0021",
+      "package": "c0021",
+      "split": "development",
+      "origin": "checkpoint case 08_missing_sbom"
+    },
+    {
+      "case_id": "c0022",
+      "package": "c0022",
+      "split": "heldout",
+      "disposition": "needs_review",
+      "fault_ids": [
+        "MISSING_TESTS"
+      ],
+      "purpose": "Additional absent artifact",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package"
+      ]
+    },
+    {
+      "case_id": "c0023",
+      "package": "c0023",
+      "split": "heldout",
+      "disposition": "needs_review",
+      "fault_ids": [
+        "PROVENANCE_TESTS"
+      ],
+      "purpose": "Additional absent hash",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ]
+    },
+    {
+      "disposition": "ready",
+      "fault_ids": [],
+      "purpose": "Conformant control",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0024",
+      "package": "c0024",
+      "split": "development",
+      "origin": "checkpoint case 01_ready"
+    },
+    {
+      "case_id": "c0025",
+      "package": "c0025",
+      "split": "heldout",
+      "disposition": "ready",
+      "fault_ids": [],
+      "purpose": "Additional valid package variant",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ]
+    },
+    {
+      "case_id": "c0026",
+      "package": "c0026",
+      "split": "heldout",
+      "disposition": "ready",
+      "fault_ids": [],
+      "purpose": "Additional valid package variant",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ]
+    },
+    {
+      "disposition": "not_ready",
+      "fault_ids": [
+        "RESPONSE_TYPE_0"
+      ],
+      "purpose": "Response type mismatch",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0027",
+      "package": "c0027",
+      "split": "development",
+      "origin": "checkpoint case 05_response_type"
+    },
+    {
+      "disposition": "needs_review",
+      "fault_ids": [
+        "MISSING_PROVENANCE"
+      ],
+      "purpose": "Missing provenance",
+      "required_tools": [
+        "inspect_evidence_package"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0028",
+      "package": "c0028",
+      "split": "development",
+      "origin": "checkpoint case 09_missing_provenance"
+    },
+    {
+      "disposition": "needs_review",
+      "fault_ids": [
+        "PROVENANCE_MANIFEST"
+      ],
+      "purpose": "Missing provenance hash",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0029",
+      "package": "c0029",
+      "split": "development",
+      "origin": "checkpoint case 18_missing_hash"
+    },
+    {
+      "case_id": "c0030",
+      "package": "c0030",
+      "split": "heldout",
+      "disposition": "not_ready",
+      "fault_ids": [
+        "ENDPOINT_FIELDS_0"
+      ],
+      "purpose": "Endpoint field has the wrong type",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ]
+    },
+    {
+      "case_id": "c0031",
+      "package": "c0031",
+      "split": "heldout",
+      "disposition": "not_ready",
+      "fault_ids": [
+        "COMPONENT_SHAPE_0"
+      ],
+      "purpose": "Component has the wrong structure",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ]
+    },
+    {
+      "case_id": "c0032",
+      "package": "c0032",
+      "split": "heldout",
+      "disposition": "needs_review",
+      "fault_ids": [
+        "TOOL_UNAVAILABLE_0"
+      ],
+      "purpose": "Evidence intake tool unavailable",
+      "disabled_tool": "inspect_evidence_package",
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ]
+    },
+    {
+      "case_id": "c0033",
+      "package": "c0033",
+      "split": "heldout",
+      "disposition": "not_ready",
+      "fault_ids": [
+        "PROVENANCE_SHAPE"
+      ],
+      "purpose": "Hash record has the wrong structure",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ]
+    },
+    {
+      "disposition": "not_ready",
+      "fault_ids": [
+        "DUPLICATE_BOM_REF_1"
+      ],
+      "purpose": "Duplicate component reference",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0034",
+      "package": "c0034",
+      "split": "development",
+      "origin": "checkpoint case 13_duplicate_reference"
+    },
+    {
+      "disposition": "not_ready",
+      "fault_ids": [
+        "ADVISORY_0"
+      ],
+      "purpose": "Synthetic advisory match",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0035",
+      "package": "c0035",
+      "split": "development",
+      "origin": "checkpoint case 14_advisory_fixture"
+    },
+    {
+      "disposition": "not_ready",
+      "fault_ids": [
+        "HASH_MANIFEST"
+      ],
+      "purpose": "Provenance hash mismatch",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0036",
+      "package": "c0036",
+      "split": "development",
+      "origin": "checkpoint case 17_provenance_hash"
+    },
+    {
+      "case_id": "c0037",
+      "package": "c0037",
+      "split": "heldout",
+      "disposition": "ready",
+      "fault_ids": [],
+      "purpose": "Additional valid package variant",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ]
+    },
+    {
+      "disposition": "needs_review",
+      "fault_ids": [
+        "MISSING_MANIFEST"
+      ],
+      "purpose": "Missing manifest",
+      "required_tools": [
+        "inspect_evidence_package"
+      ],
+      "disabled_tool": null,
+      "case_id": "c0038",
+      "package": "c0038",
+      "split": "development",
+      "origin": "checkpoint case 07_missing_manifest"
+    },
+    {
+      "case_id": "c0039",
+      "package": "c0039",
+      "split": "heldout",
+      "disposition": "not_ready",
+      "fault_ids": [
+        "TEST_MODULE_ID"
+      ],
+      "purpose": "Test record names another module",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ]
+    },
+    {
+      "case_id": "c0040",
+      "package": "c0040",
+      "split": "heldout",
+      "disposition": "needs_review",
+      "fault_ids": [
+        "PROVENANCE_DATE"
+      ],
+      "purpose": "Creation time cannot be checked",
+      "disabled_tool": null,
+      "origin": "new synthetic case",
+      "required_tools": [
+        "inspect_evidence_package",
+        "validate_interface_contract",
+        "verify_sbom_and_advisories"
+      ]
+    }
+  ],
+  "label_review": {
+    "author": "Codex assisted specification from explicit synthetic mutations",
+    "author_verification": "pending Daren Diaz review",
+    "independent_review": "pending"
+  },
+  "limitations": "Synthetic additional cases. They are separated before study evaluation, but are not independently authored or reviewed."
+}

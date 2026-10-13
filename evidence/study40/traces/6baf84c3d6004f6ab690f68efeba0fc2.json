@@ -1,0 +1,196 @@
+{
+  "run_id": "6baf84c3d6004f6ab690f68efeba0fc2",
+  "package": "c0002",
+  "created_at": "2026-10-12T05:38:36.324712+00:00",
+  "finished_at": "2026-10-12T05:38:36.330486+00:00",
+  "profile": "mosa-course-profile-0.1",
+  "prompt_version": "mosa-review-0.1",
+  "controller": "fixed-baseline",
+  "package_fingerprint": "ba6ee99dd220fb84780046bd3eec542f48b443449278cf9f7e3e668af85ce545",
+  "artifact_hashes": {
+    "manifest.json": "fc7ae54f7e853f4ebbf8ca50d74afdce9f3e42e30e58e82dd6e03298f7b68ef1",
+    "interface.json": "366569eeb6b22a11f3e32e9aa492d5c5e937720a090db7509f1efed55ef53d29",
+    "sbom.json": "700991994afb8238bdaf004d5e1da293f5968013db773bac24e3e613ef5f7ed7",
+    "tests.json": "32c363224e783fcd4722e76e6ea1ae9b1806f3883635cd86b289b8bcb217bbea",
+    "provenance.json": "1e698b1e3c0422295c29d3e57e2aa38799c9b416cb34829afe092e58baf3ba63"
+  },
+  "disabled_tool": null,
+  "live_osv": false,
+  "model_calls": 0,
+  "request_attempts": 0,
+  "reported_cost_usd": 0.0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "status": "finished",
+  "raw_disposition": "not_ready",
+  "disposition": "not_ready",
+  "findings": [
+    {
+      "id": "INTERFACE_SHAPE",
+      "artifact": "interface.json",
+      "field": "/",
+      "severity": "blocker",
+      "message": "Contract must contain info and paths objects.",
+      "remediation": "Correct the contract structure."
+    }
+  ],
+  "guard_notes": [],
+  "guard_interventions": [],
+  "coverage_complete": true,
+  "draft_valid": true,
+  "model_draft": {
+    "disposition": "not_ready",
+    "finding_ids": [
+      "INTERFACE_SHAPE"
+    ]
+  },
+  "latency_ms": 5.774,
+  "study_metadata": {
+    "case_id": "c0002",
+    "split": "heldout",
+    "mode": "baseline",
+    "repeat": 3,
+    "freeze_sha256": "70258896ad3335b10dd19217d819c7dbd25934615091612bc0b260314047055f"
+  },
+  "results": {
+    "inspect_evidence_package": {
+      "tool": "inspect_evidence_package",
+      "inventory": [
+        {
+          "artifact": "manifest.json",
+          "sha256": "fc7ae54f7e853f4ebbf8ca50d74afdce9f3e42e30e58e82dd6e03298f7b68ef1"
+        },
+        {
+          "artifact": "interface.json",
+          "sha256": "366569eeb6b22a11f3e32e9aa492d5c5e937720a090db7509f1efed55ef53d29"
+        },
+        {
+          "artifact": "sbom.json",
+          "sha256": "700991994afb8238bdaf004d5e1da293f5968013db773bac24e3e613ef5f7ed7"
+        },
+        {
+          "artifact": "tests.json",
+          "sha256": "32c363224e783fcd4722e76e6ea1ae9b1806f3883635cd86b289b8bcb217bbea"
+        },
+        {
+          "artifact": "provenance.json",
+          "sha256": "1e698b1e3c0422295c29d3e57e2aa38799c9b416cb34829afe092e58baf3ba63"
+        }
+      ],
+      "findings": [],
+      "halt_recommended": false,
+      "priority_hint": "SBOM first",
+      "scope": "mosa-course-profile-0.1",
+      "note": "Hashes establish byte consistency, not signer authenticity."
+    },
+    "validate_interface_contract": {
+      "tool": "validate_interface_contract",
+      "findings": [
+        {
+          "id": "INTERFACE_SHAPE",
+          "artifact": "interface.json",
+          "field": "/",
+          "severity": "blocker",
+          "message": "Contract must contain info and paths objects.",
+          "remediation": "Correct the contract structure."
+        }
+      ],
+      "scope": "Course profile comparison only"
+    },
+    "verify_sbom_and_advisories": {
+      "tool": "verify_sbom_and_advisories",
+      "findings": [],
+      "advisories": [],
+      "advisory_mode": "synthetic dated fixture",
+      "advisory_fixture_date": "2026-10-11",
+      "scope": "Selected CycloneDX profile fields only; fixture mode is not a real vulnerability scan."
+    }
+  },
+  "events": [
+    {
+      "at": "2026-10-12T05:38:36.326892+00:00",
+      "type": "tool",
+      "tool": "inspect_evidence_package",
+      "arguments": {},
+      "reason": "Fixed baseline invokes every validator in this order.",
+      "status": "ok",
+      "latency_ms": 1.919,
+      "output": {
+        "tool": "inspect_evidence_package",
+        "inventory": [
+          {
+            "artifact": "manifest.json",
+            "sha256": "fc7ae54f7e853f4ebbf8ca50d74afdce9f3e42e30e58e82dd6e03298f7b68ef1"
+          },
+          {
+            "artifact": "interface.json",
+            "sha256": "366569eeb6b22a11f3e32e9aa492d5c5e937720a090db7509f1efed55ef53d29"
+          },
+          {
+            "artifact": "sbom.json",
+            "sha256": "700991994afb8238bdaf004d5e1da293f5968013db773bac24e3e613ef5f7ed7"
+          },
+          {
+            "artifact": "tests.json",
+            "sha256": "32c363224e783fcd4722e76e6ea1ae9b1806f3883635cd86b289b8bcb217bbea"
+          },
+          {
+            "artifact": "provenance.json",
+            "sha256": "1e698b1e3c0422295c29d3e57e2aa38799c9b416cb34829afe092e58baf3ba63"
+          }
+        ],
+        "findings": [],
+        "halt_recommended": false,
+        "priority_hint": "SBOM first",
+        "scope": "mosa-course-profile-0.1",
+        "note": "Hashes establish byte consistency, not signer authenticity."
+      }
+    },
+    {
+      "at": "2026-10-12T05:38:36.328256+00:00",
+      "type": "tool",
+      "tool": "validate_interface_contract",
+      "arguments": {},
+      "reason": "Fixed baseline invokes every validator in this order.",
+      "status": "ok",
+      "latency_ms": 0.942,
+      "output": {
+        "tool": "validate_interface_contract",
+        "findings": [
+          {
+            "id": "INTERFACE_SHAPE",
+            "artifact": "interface.json",
+            "field": "/",
+            "severity": "blocker",
+            "message": "Contract must contain info and paths objects.",
+            "remediation": "Correct the contract structure."
+          }
+        ],
+        "scope": "Course profile comparison only"
+      }
+    },
+    {
+      "at": "2026-10-12T05:38:36.329494+00:00",
+      "type": "tool",
+      "tool": "verify_sbom_and_advisories",
+      "arguments": {},
+      "reason": "Fixed baseline invokes every validator in this order.",
+      "status": "ok",
+      "latency_ms": 0.828,
+      "output": {
+        "tool": "verify_sbom_and_advisories",
+        "findings": [],
+        "advisories": [],
+        "advisory_mode": "synthetic dated fixture",
+        "advisory_fixture_date": "2026-10-11",
+        "scope": "Selected CycloneDX profile fields only; fixture mode is not a real vulnerability scan."
+      }
+    },
+    {
+      "at": "2026-10-12T05:38:36.330503+00:00",
+      "type": "decision_guard",
+      "disposition": "not_ready",
+      "notes": []
+    }
+  ]
+}

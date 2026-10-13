@@ -1,0 +1,24 @@
+{
+  "actionable_diagnosis": "provenance_hash_mismatch",
+  "candidate": "provenance_hash_mismatch",
+  "competition_readiness_score": 100.0,
+  "composite_score": 88.33,
+  "duration_ms": 5.574124,
+  "evidence_completeness": 0.8,
+  "evidence_confidence": 0.8,
+  "evidence_digest": "cadd2e00c22b5261b1c62d421d78399e44eac4116d2b48d1fa2bb51b6fd824f4",
+  "findings": [
+    {
+      "category": "provenance_hash_mismatch",
+      "code": "H-PROVENANCE",
+      "message": "Source digest does not match the manifest",
+      "severity": "critical"
+    }
+  ],
+  "gate_failure": true,
+  "operational_score": 100.0,
+  "passed": false,
+  "security_score": 100.0,
+  "structural_score": 66.67,
+  "tests_executed": 177
+}

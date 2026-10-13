@@ -1,0 +1,120 @@
+{
+  "actionable_diagnosis": "configuration_coupling",
+  "candidate": "configuration_coupling",
+  "competition_readiness_score": 100.0,
+  "composite_score": 88.28,
+  "duration_ms": 6.850488,
+  "evidence_completeness": 1.0,
+  "evidence_confidence": 1.0,
+  "evidence_digest": "a65c25cdba149aedf03778037c7776cc0a9aa8d3a58d1389578752b0b2c8db33",
+  "findings": [
+    {
+      "category": "configuration_coupling",
+      "code": "H-EXECUTION",
+      "message": "Vector E-ALT-1 failed: RuntimeError: vendor_secret required",
+      "severity": "critical"
+    },
+    {
+      "category": "configuration_coupling",
+      "code": "H-EXECUTION",
+      "message": "Vector E-ALT-2 failed: RuntimeError: vendor_secret required",
+      "severity": "critical"
+    },
+    {
+      "category": "configuration_coupling",
+      "code": "H-EXECUTION",
+      "message": "Vector E-EDGE-HIGH failed: RuntimeError: vendor_secret required",
+      "severity": "critical"
+    },
+    {
+      "category": "configuration_coupling",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-1 failed: RuntimeError: vendor_secret required",
+      "severity": "critical"
+    },
+    {
+      "category": "configuration_coupling",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-5 failed: RuntimeError: vendor_secret required",
+      "severity": "critical"
+    },
+    {
+      "category": "configuration_coupling",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-7 failed: RuntimeError: vendor_secret required",
+      "severity": "critical"
+    },
+    {
+      "category": "configuration_coupling",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-11 failed: RuntimeError: vendor_secret required",
+      "severity": "critical"
+    },
+    {
+      "category": "configuration_coupling",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-12 failed: RuntimeError: vendor_secret required",
+      "severity": "critical"
+    },
+    {
+      "category": "configuration_coupling",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-21 failed: RuntimeError: vendor_secret required",
+      "severity": "critical"
+    },
+    {
+      "category": "configuration_coupling",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-22 failed: RuntimeError: vendor_secret required",
+      "severity": "critical"
+    },
+    {
+      "category": "configuration_coupling",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-26 failed: RuntimeError: vendor_secret required",
+      "severity": "critical"
+    },
+    {
+      "category": "configuration_coupling",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-31 failed: RuntimeError: vendor_secret required",
+      "severity": "critical"
+    },
+    {
+      "category": "configuration_coupling",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-34 failed: RuntimeError: vendor_secret required",
+      "severity": "critical"
+    },
+    {
+      "category": "configuration_coupling",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-36 failed: RuntimeError: vendor_secret required",
+      "severity": "critical"
+    },
+    {
+      "category": "configuration_coupling",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-38 failed: RuntimeError: vendor_secret required",
+      "severity": "critical"
+    },
+    {
+      "category": "configuration_coupling",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-43 failed: RuntimeError: vendor_secret required",
+      "severity": "critical"
+    },
+    {
+      "category": "configuration_coupling",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-46 failed: RuntimeError: vendor_secret required",
+      "severity": "critical"
+    }
+  ],
+  "gate_failure": true,
+  "operational_score": 70.69,
+  "passed": false,
+  "security_score": 100.0,
+  "structural_score": 100.0,
+  "tests_executed": 143
+}

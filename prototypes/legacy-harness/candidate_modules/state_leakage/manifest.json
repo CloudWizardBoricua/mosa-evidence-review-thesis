@@ -1,0 +1,11 @@
+{
+  "module_name": "state_leakage",
+  "module_version": "1.0.0",
+  "vendor": "Vendor C",
+  "interface_version": "1.0",
+  "entry_point": "processor.py:process_event",
+  "declared_dependencies": [],
+  "source_sha256": "c4daeb16c8326d3ce1edd8136cde31792c42c7f5ac97321e891821e389a36353",
+  "sbom": "sbom.json",
+  "data_rights": "government-purpose-rights"
+}

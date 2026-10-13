@@ -1,0 +1,126 @@
+{
+  "actionable_diagnosis": "hidden_file_dependency",
+  "candidate": "hidden_file_dependency",
+  "competition_readiness_score": 75.0,
+  "composite_score": 84.53,
+  "duration_ms": 11.56072,
+  "evidence_completeness": 1.0,
+  "evidence_confidence": 1.0,
+  "evidence_digest": "f37dd76c7eba0c528ed1a37494a52b5d5581a6d93053757ceddafec77c20d7fb",
+  "findings": [
+    {
+      "category": "hidden_file_dependency",
+      "code": "H-FILE-DEPENDENCY",
+      "message": "Runtime file access at lines [11]",
+      "severity": "critical"
+    },
+    {
+      "category": "runtime",
+      "code": "H-EXECUTION",
+      "message": "Vector E-ALT-1 failed: FileNotFoundError: [Errno 2] No such file or directory: 'vendor_calibration.bin'",
+      "severity": "critical"
+    },
+    {
+      "category": "edge_case_exception",
+      "code": "H-EXECUTION",
+      "message": "Vector E-ALT-2 failed: FileNotFoundError: [Errno 2] No such file or directory: 'vendor_calibration.bin'",
+      "severity": "critical"
+    },
+    {
+      "category": "edge_case_exception",
+      "code": "H-EXECUTION",
+      "message": "Vector E-EDGE-HIGH failed: FileNotFoundError: [Errno 2] No such file or directory: 'vendor_calibration.bin'",
+      "severity": "critical"
+    },
+    {
+      "category": "runtime",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-1 failed: FileNotFoundError: [Errno 2] No such file or directory: 'vendor_calibration.bin'",
+      "severity": "critical"
+    },
+    {
+      "category": "runtime",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-5 failed: FileNotFoundError: [Errno 2] No such file or directory: 'vendor_calibration.bin'",
+      "severity": "critical"
+    },
+    {
+      "category": "runtime",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-7 failed: FileNotFoundError: [Errno 2] No such file or directory: 'vendor_calibration.bin'",
+      "severity": "critical"
+    },
+    {
+      "category": "runtime",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-11 failed: FileNotFoundError: [Errno 2] No such file or directory: 'vendor_calibration.bin'",
+      "severity": "critical"
+    },
+    {
+      "category": "runtime",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-12 failed: FileNotFoundError: [Errno 2] No such file or directory: 'vendor_calibration.bin'",
+      "severity": "critical"
+    },
+    {
+      "category": "runtime",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-21 failed: FileNotFoundError: [Errno 2] No such file or directory: 'vendor_calibration.bin'",
+      "severity": "critical"
+    },
+    {
+      "category": "runtime",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-22 failed: FileNotFoundError: [Errno 2] No such file or directory: 'vendor_calibration.bin'",
+      "severity": "critical"
+    },
+    {
+      "category": "runtime",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-26 failed: FileNotFoundError: [Errno 2] No such file or directory: 'vendor_calibration.bin'",
+      "severity": "critical"
+    },
+    {
+      "category": "runtime",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-31 failed: FileNotFoundError: [Errno 2] No such file or directory: 'vendor_calibration.bin'",
+      "severity": "critical"
+    },
+    {
+      "category": "runtime",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-34 failed: FileNotFoundError: [Errno 2] No such file or directory: 'vendor_calibration.bin'",
+      "severity": "critical"
+    },
+    {
+      "category": "runtime",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-36 failed: FileNotFoundError: [Errno 2] No such file or directory: 'vendor_calibration.bin'",
+      "severity": "critical"
+    },
+    {
+      "category": "runtime",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-38 failed: FileNotFoundError: [Errno 2] No such file or directory: 'vendor_calibration.bin'",
+      "severity": "critical"
+    },
+    {
+      "category": "runtime",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-43 failed: FileNotFoundError: [Errno 2] No such file or directory: 'vendor_calibration.bin'",
+      "severity": "critical"
+    },
+    {
+      "category": "runtime",
+      "code": "H-EXECUTION",
+      "message": "Vector R-20260623-46 failed: FileNotFoundError: [Errno 2] No such file or directory: 'vendor_calibration.bin'",
+      "severity": "critical"
+    }
+  ],
+  "gate_failure": true,
+  "operational_score": 70.69,
+  "passed": false,
+  "security_score": 100.0,
+  "structural_score": 100.0,
+  "tests_executed": 143
+}

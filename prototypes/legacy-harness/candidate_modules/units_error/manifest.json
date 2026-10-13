@@ -1,0 +1,11 @@
+{
+  "module_name": "units_error",
+  "module_version": "1.0.0",
+  "vendor": "Vendor C",
+  "interface_version": "1.0",
+  "entry_point": "processor.py:process_event",
+  "declared_dependencies": [],
+  "source_sha256": "b25e244bbc0bf04e3aa1dc698c18cc0c34eef9f9725bc0adbaaeb334e9bffb03",
+  "sbom": "sbom.json",
+  "data_rights": "government-purpose-rights"
+}

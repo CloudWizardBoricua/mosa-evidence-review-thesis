@@ -1,0 +1,62 @@
+{
+  "run_id": "b35ae22cdb134acbab1fdd85f5916ad4",
+  "case_id": "c0001",
+  "split": "heldout",
+  "mode": "openrouter",
+  "repeat": 1,
+  "dataset": "study40",
+  "created_at": "2026-10-12T05:36:07.052517+00:00",
+  "status": "failed",
+  "failure_kind": "api_failure",
+  "raw_disposition": null,
+  "fallback_disposition": "needs_review",
+  "guarded_disposition": "needs_review",
+  "findings": [],
+  "events": [
+    {
+      "type": "model_error"
+    },
+    {
+      "type": "decision_guard"
+    }
+  ],
+  "guard_notes": [
+    "Required validation coverage is incomplete."
+  ],
+  "guard_interventions": [
+    "Required validation coverage is incomplete.",
+    "The draft recommendation differs from the supported findings."
+  ],
+  "metrics": {
+    "elapsed_ms": 140.205,
+    "tool_invocations": 0,
+    "tokens": 0,
+    "cost_usd": null
+  },
+  "sources": [
+    {
+      "artifact": "manifest.json",
+      "url": "https://github.com/CloudWizardBoricua/mosa-evidence-review-thesis/blob/main/evidence/study40/packages/c0001/manifest.json"
+    },
+    {
+      "artifact": "interface.json",
+      "url": "https://github.com/CloudWizardBoricua/mosa-evidence-review-thesis/blob/main/evidence/study40/packages/c0001/interface.json"
+    },
+    {
+      "artifact": "sbom.json",
+      "url": "https://github.com/CloudWizardBoricua/mosa-evidence-review-thesis/blob/main/evidence/study40/packages/c0001/sbom.json"
+    },
+    {
+      "artifact": "tests.json",
+      "url": "https://github.com/CloudWizardBoricua/mosa-evidence-review-thesis/blob/main/evidence/study40/packages/c0001/tests.json"
+    },
+    {
+      "artifact": "provenance.json",
+      "url": "https://github.com/CloudWizardBoricua/mosa-evidence-review-thesis/blob/main/evidence/study40/packages/c0001/provenance.json"
+    }
+  ],
+  "limitations": [
+    "Synthetic research profile with a dated invented advisory fixture. This result is not official MOSA certification.",
+    "The model request did not complete. No raw model recommendation was returned. The guarded outcome is a fallback for human review."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "actionable_diagnosis": "undeclared_dependency",
+  "candidate": "undeclared_dependency",
+  "competition_readiness_score": 75.0,
+  "composite_score": 96.25,
+  "duration_ms": 5.964696,
+  "evidence_completeness": 1.0,
+  "evidence_confidence": 1.0,
+  "evidence_digest": "3182410800a18913f509b69821bd12724d992a46d15903603a38681146356e72",
+  "findings": [
+    {
+      "category": "undeclared_dependency",
+      "code": "H-DEPENDENCY",
+      "message": "Undeclared dependencies: ['statistics']",
+      "severity": "high"
+    }
+  ],
+  "gate_failure": true,
+  "operational_score": 100.0,
+  "passed": false,
+  "security_score": 100.0,
+  "structural_score": 100.0,
+  "tests_executed": 177
+}

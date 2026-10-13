@@ -1,0 +1,81 @@
+{
+  "run_id": "110ecb1f43d44d2e8de4a7d4fff0705c",
+  "case_id": "c0031",
+  "split": "heldout",
+  "mode": "adaptive",
+  "repeat": 3,
+  "dataset": "study40",
+  "created_at": "2026-10-12T05:38:38.090111+00:00",
+  "status": "completed",
+  "failure_kind": null,
+  "raw_disposition": "not_ready",
+  "fallback_disposition": null,
+  "guarded_disposition": "not_ready",
+  "findings": [
+    {
+      "id": "COMPONENT_SHAPE_0",
+      "artifact": "sbom.json",
+      "field": "/components/0",
+      "message": "Component must be an object.",
+      "remediation": "Correct the component.",
+      "severity": "blocker",
+      "citation_valid": true
+    }
+  ],
+  "events": [
+    {
+      "type": "tool",
+      "tool": "inspect_evidence_package",
+      "status": "ok",
+      "reason": "Inspect evidence before choosing further checks."
+    },
+    {
+      "type": "tool",
+      "tool": "verify_sbom_and_advisories",
+      "status": "ok",
+      "reason": "Selected by the documented rule controller."
+    },
+    {
+      "type": "tool",
+      "tool": "validate_interface_contract",
+      "status": "ok",
+      "reason": "Selected by the documented rule controller."
+    },
+    {
+      "type": "decision_guard"
+    }
+  ],
+  "guard_notes": [],
+  "guard_interventions": [],
+  "metrics": {
+    "elapsed_ms": 7.204,
+    "tool_invocations": 3,
+    "tokens": 0,
+    "cost_usd": 0.0
+  },
+  "sources": [
+    {
+      "artifact": "manifest.json",
+      "url": "https://github.com/CloudWizardBoricua/mosa-evidence-review-thesis/blob/main/evidence/study40/packages/c0031/manifest.json"
+    },
+    {
+      "artifact": "interface.json",
+      "url": "https://github.com/CloudWizardBoricua/mosa-evidence-review-thesis/blob/main/evidence/study40/packages/c0031/interface.json"
+    },
+    {
+      "artifact": "sbom.json",
+      "url": "https://github.com/CloudWizardBoricua/mosa-evidence-review-thesis/blob/main/evidence/study40/packages/c0031/sbom.json"
+    },
+    {
+      "artifact": "tests.json",
+      "url": "https://github.com/CloudWizardBoricua/mosa-evidence-review-thesis/blob/main/evidence/study40/packages/c0031/tests.json"
+    },
+    {
+      "artifact": "provenance.json",
+      "url": "https://github.com/CloudWizardBoricua/mosa-evidence-review-thesis/blob/main/evidence/study40/packages/c0031/provenance.json"
+    }
+  ],
+  "limitations": [
+    "Synthetic research profile with a dated invented advisory fixture. This result is not official MOSA certification."
+  ]
+}

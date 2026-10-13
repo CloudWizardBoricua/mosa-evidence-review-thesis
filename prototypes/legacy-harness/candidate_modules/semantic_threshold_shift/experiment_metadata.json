@@ -1,0 +1,5 @@
+{
+  "candidate": "semantic_threshold_shift",
+  "fault_class": "semantic_threshold_shift",
+  "expected_conformant": false
+}

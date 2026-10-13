@@ -1,0 +1,24 @@
+{
+  "actionable_diagnosis": "missing_sbom",
+  "candidate": "missing_sbom",
+  "competition_readiness_score": 75.0,
+  "composite_score": 96.25,
+  "duration_ms": 7.351633,
+  "evidence_completeness": 0.8,
+  "evidence_confidence": 0.8,
+  "evidence_digest": "b6d59323b02064af6b8df7fc8da6f5b66337f089297ee509918a6cbda5f22c8c",
+  "findings": [
+    {
+      "category": "missing_sbom",
+      "code": "H-SBOM",
+      "message": "SBOM artifact is missing",
+      "severity": "high"
+    }
+  ],
+  "gate_failure": true,
+  "operational_score": 100.0,
+  "passed": false,
+  "security_score": 100.0,
+  "structural_score": 100.0,
+  "tests_executed": 177
+}

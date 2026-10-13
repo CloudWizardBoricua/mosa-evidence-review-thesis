@@ -1,0 +1,12 @@
+flowchart TD
+    Class["Class project"]:::evidence
+    Tested["Tested release"]:::evidence
+    Export["Checked archive"]:::review
+    Thesis["Thesis copy"]:::evidence
+    Fresh["Fresh tests"]:::evidence
+    Main["Future work"]:::evidence
+    Class --> Tested --> Export --> Thesis --> Fresh --> Main
+    Class --> Preserved["History kept"]:::evidence
+    classDef evidence fill:#e8f1fb,stroke:#1565c0,color:#102f53
+    classDef review fill:#fff2d4,stroke:#9a6200,color:#563600
+    classDef ready fill:#e4f3e8,stroke:#24713a,color:#164724

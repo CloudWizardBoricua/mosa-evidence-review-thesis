@@ -1,0 +1,75 @@
+{
+  "disagreements": [
+    {
+      "package": "07_missing_manifest",
+      "run_id": "84d7efc33b694af68264983c23451500",
+      "expected": "needs_review",
+      "raw": "not_ready",
+      "guarded": "needs_review",
+      "draft_valid": true,
+      "guard_notes": [],
+      "tool_order": [
+        "inspect_evidence_package"
+      ],
+      "findings": [
+        "MISSING_MANIFEST"
+      ]
+    },
+    {
+      "package": "08_missing_sbom",
+      "run_id": "75b2763dcb44416e8fb74de7a2d7e411",
+      "expected": "needs_review",
+      "raw": "not_ready",
+      "guarded": "needs_review",
+      "draft_valid": true,
+      "guard_notes": [],
+      "tool_order": [
+        "inspect_evidence_package"
+      ],
+      "findings": [
+        "MISSING_SBOM"
+      ]
+    },
+    {
+      "package": "09_missing_provenance",
+      "run_id": "71753ff4982f4e6582652e0d5425874b",
+      "expected": "needs_review",
+      "raw": "not_ready",
+      "guarded": "needs_review",
+      "draft_valid": true,
+      "guard_notes": [],
+      "tool_order": [
+        "inspect_evidence_package"
+      ],
+      "findings": [
+        "MISSING_PROVENANCE"
+      ]
+    },
+    {
+      "package": "20_tool_unavailable",
+      "run_id": "b9b7a1de06da44229a847fba97ee1618",
+      "expected": "needs_review",
+      "raw": "needs_review",
+      "guarded": "needs_review",
+      "draft_valid": true,
+      "guard_notes": [
+        "Required validation coverage is incomplete."
+      ],
+      "tool_order": [
+        "inspect_evidence_package",
+        "verify_sbom_and_advisories"
+      ],
+      "findings": [
+        "TOOL_UNAVAILABLE_2"
+      ]
+    }
+  ],
+  "reported_cost_usd": 0.0205728,
+  "calls_with_cost": 71,
+  "successful_model_calls": 71,
+  "tool_call_reduction": 0.15,
+  "model": "openai/gpt-4.1-mini",
+  "date_central": "2026-10-11",
+  "source_zip_sha256": "03ba661505fc648348168c84b0ef7849c32906f3f7bc3b4533e508b83184497b",
+  "public_export_note": "Sanitized copy. Private course host identity removed; original checkpoint source is retained unchanged."
+}

@@ -1,0 +1,5 @@
+{
+  "candidate": "control_vendor_b",
+  "fault_class": "control",
+  "expected_conformant": true
+}

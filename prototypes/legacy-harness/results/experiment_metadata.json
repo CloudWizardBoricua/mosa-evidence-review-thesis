@@ -1,0 +1,13 @@
+{
+  "study_type": "controlled synthetic feasibility evaluation with mutation-based fault injection",
+  "seed": 20260623,
+  "repeats": 20,
+  "candidate_count": 20,
+  "faulted_candidate_count": 18,
+  "control_candidate_count": 2,
+  "fixed_vectors": 8,
+  "property_vectors_per_harness_run": 48,
+  "python": "3.13.5 (main, May  5 2026, 21:05:52) [GCC 14.2.0]",
+  "platform": "Linux-4.4.0-x86_64-with-glibc2.41",
+  "processor": ""
+}

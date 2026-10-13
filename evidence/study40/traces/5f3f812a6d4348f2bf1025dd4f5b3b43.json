@@ -1,0 +1,167 @@
+{
+  "run_id": "5f3f812a6d4348f2bf1025dd4f5b3b43",
+  "package": "c0017",
+  "created_at": "2026-10-12T05:38:37.173622+00:00",
+  "finished_at": "2026-10-12T05:38:37.180672+00:00",
+  "profile": "mosa-course-profile-0.1",
+  "prompt_version": "mosa-review-0.1",
+  "controller": "rule-adaptive",
+  "package_fingerprint": "44e8ccd23ec815a48632af2667319452a9fe7bc66448237c4aa43ab0315c137f",
+  "artifact_hashes": {
+    "manifest.json": "370a35a307dfe37a2e0e1e269a1aae8dcd6512ccceb1216c63ba205501eb3020",
+    "interface.json": "92c20db091161d3e23a57cdb1bf768fb68b05eec87a8c1d6fc984662462fe896",
+    "sbom.json": "700991994afb8238bdaf004d5e1da293f5968013db773bac24e3e613ef5f7ed7",
+    "tests.json": "46ecede4b075741093ae06132c7fcce1aead44ece3f47f36a190fef98397faad",
+    "provenance.json": "e841a1bc2dfbf9c5e621cb9c91bf7b30af884f1554294963dc7b8f0fdbf11bb4"
+  },
+  "disabled_tool": null,
+  "live_osv": false,
+  "model_calls": 0,
+  "request_attempts": 0,
+  "reported_cost_usd": 0.0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "status": "finished",
+  "raw_disposition": "ready",
+  "disposition": "ready",
+  "findings": [],
+  "guard_notes": [],
+  "guard_interventions": [],
+  "coverage_complete": true,
+  "draft_valid": true,
+  "model_draft": {
+    "disposition": "ready",
+    "finding_ids": []
+  },
+  "latency_ms": 7.05,
+  "study_metadata": {
+    "case_id": "c0017",
+    "split": "heldout",
+    "mode": "adaptive",
+    "repeat": 1,
+    "freeze_sha256": "70258896ad3335b10dd19217d819c7dbd25934615091612bc0b260314047055f"
+  },
+  "results": {
+    "inspect_evidence_package": {
+      "tool": "inspect_evidence_package",
+      "inventory": [
+        {
+          "artifact": "manifest.json",
+          "sha256": "370a35a307dfe37a2e0e1e269a1aae8dcd6512ccceb1216c63ba205501eb3020"
+        },
+        {
+          "artifact": "interface.json",
+          "sha256": "92c20db091161d3e23a57cdb1bf768fb68b05eec87a8c1d6fc984662462fe896"
+        },
+        {
+          "artifact": "sbom.json",
+          "sha256": "700991994afb8238bdaf004d5e1da293f5968013db773bac24e3e613ef5f7ed7"
+        },
+        {
+          "artifact": "tests.json",
+          "sha256": "46ecede4b075741093ae06132c7fcce1aead44ece3f47f36a190fef98397faad"
+        },
+        {
+          "artifact": "provenance.json",
+          "sha256": "e841a1bc2dfbf9c5e621cb9c91bf7b30af884f1554294963dc7b8f0fdbf11bb4"
+        }
+      ],
+      "findings": [],
+      "halt_recommended": false,
+      "priority_hint": "SBOM first",
+      "scope": "mosa-course-profile-0.1",
+      "note": "Hashes establish byte consistency, not signer authenticity."
+    },
+    "verify_sbom_and_advisories": {
+      "tool": "verify_sbom_and_advisories",
+      "findings": [],
+      "advisories": [],
+      "advisory_mode": "synthetic dated fixture",
+      "advisory_fixture_date": "2026-10-11",
+      "scope": "Selected CycloneDX profile fields only; fixture mode is not a real vulnerability scan."
+    },
+    "validate_interface_contract": {
+      "tool": "validate_interface_contract",
+      "findings": [],
+      "scope": "Version, endpoint, response type and dependency consistency; not complete OpenAPI validation."
+    }
+  },
+  "events": [
+    {
+      "at": "2026-10-12T05:38:37.176484+00:00",
+      "type": "tool",
+      "tool": "inspect_evidence_package",
+      "arguments": {},
+      "reason": "Inspect evidence before choosing further checks.",
+      "status": "ok",
+      "latency_ms": 2.539,
+      "output": {
+        "tool": "inspect_evidence_package",
+        "inventory": [
+          {
+            "artifact": "manifest.json",
+            "sha256": "370a35a307dfe37a2e0e1e269a1aae8dcd6512ccceb1216c63ba205501eb3020"
+          },
+          {
+            "artifact": "interface.json",
+            "sha256": "92c20db091161d3e23a57cdb1bf768fb68b05eec87a8c1d6fc984662462fe896"
+          },
+          {
+            "artifact": "sbom.json",
+            "sha256": "700991994afb8238bdaf004d5e1da293f5968013db773bac24e3e613ef5f7ed7"
+          },
+          {
+            "artifact": "tests.json",
+            "sha256": "46ecede4b075741093ae06132c7fcce1aead44ece3f47f36a190fef98397faad"
+          },
+          {
+            "artifact": "provenance.json",
+            "sha256": "e841a1bc2dfbf9c5e621cb9c91bf7b30af884f1554294963dc7b8f0fdbf11bb4"
+          }
+        ],
+        "findings": [],
+        "halt_recommended": false,
+        "priority_hint": "SBOM first",
+        "scope": "mosa-course-profile-0.1",
+        "note": "Hashes establish byte consistency, not signer authenticity."
+      }
+    },
+    {
+      "at": "2026-10-12T05:38:37.177882+00:00",
+      "type": "tool",
+      "tool": "verify_sbom_and_advisories",
+      "arguments": {},
+      "reason": "Selected by the documented rule controller.",
+      "status": "ok",
+      "latency_ms": 0.905,
+      "output": {
+        "tool": "verify_sbom_and_advisories",
+        "findings": [],
+        "advisories": [],
+        "advisory_mode": "synthetic dated fixture",
+        "advisory_fixture_date": "2026-10-11",
+        "scope": "Selected CycloneDX profile fields only; fixture mode is not a real vulnerability scan."
+      }
+    },
+    {
+      "at": "2026-10-12T05:38:37.179556+00:00",
+      "type": "tool",
+      "tool": "validate_interface_contract",
+      "arguments": {},
+      "reason": "Selected by the documented rule controller.",
+      "status": "ok",
+      "latency_ms": 1.169,
+      "output": {
+        "tool": "validate_interface_contract",
+        "findings": [],
+        "scope": "Version, endpoint, response type and dependency consistency; not complete OpenAPI validation."
+      }
+    },
+    {
+      "at": "2026-10-12T05:38:37.180692+00:00",
+      "type": "decision_guard",
+      "disposition": "ready",
+      "notes": []
+    }
+  ]
+}

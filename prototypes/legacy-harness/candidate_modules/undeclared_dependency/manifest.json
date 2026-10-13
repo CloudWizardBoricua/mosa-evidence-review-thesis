@@ -1,0 +1,11 @@
+{
+  "module_name": "undeclared_dependency",
+  "module_version": "1.0.0",
+  "vendor": "Vendor C",
+  "interface_version": "1.0",
+  "entry_point": "processor.py:process_event",
+  "declared_dependencies": [],
+  "source_sha256": "c91131e90fbfdcc6fdcc1cd03fc6b32be5987817e5de8fd55f0d55be2e83e7d2",
+  "sbom": "sbom.json",
+  "data_rights": "government-purpose-rights"
+}

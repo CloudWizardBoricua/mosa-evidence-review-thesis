@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/mosa/module-manifest-1.0.schema.json",
+  "title": "MOSA Module Manifest 1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "module_name",
+    "module_version",
+    "vendor",
+    "interface_version",
+    "entry_point",
+    "declared_dependencies",
+    "source_sha256",
+    "sbom",
+    "data_rights"
+  ],
+  "properties": {
+    "module_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "module_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "vendor": {
+      "type": "string",
+      "minLength": 1
+    },
+    "interface_version": {
+      "const": "1.0"
+    },
+    "entry_point": {
+      "const": "processor.py:process_event"
+    },
+    "declared_dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "source_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "sbom": {
+      "const": "sbom.json"
+    },
+    "data_rights": {
+      "enum": [
+        "government-purpose-rights",
+        "unlimited-rights",
+        "open-source"
+      ]
+    }
+  }
+}

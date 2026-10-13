@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying master's thesis when using this artifact."
+title: "MOSA Conformance Harness Prototype"
+type: software
+authors:
+  - family-names: "Diaz"
+    given-names: "Daren Jadiel"
+version: "1.0.0"
+date-released: "2026-06-23"
+license: "MIT"
+repository-code: "Local thesis research artifact"
+keywords:
+  - MOSA
+  - conformance testing
+  - modular open systems
+  - defense acquisition
+  - mutation testing

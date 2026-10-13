@@ -1,0 +1,24 @@
+{
+  "actionable_diagnosis": "latency_violation",
+  "candidate": "latency_violation",
+  "competition_readiness_score": 100.0,
+  "composite_score": 99.31,
+  "duration_ms": 1375.813153,
+  "evidence_completeness": 1.0,
+  "evidence_confidence": 1.0,
+  "evidence_digest": "b75e0915bc2c4aed31e57e4203f72393a37c99176ae4389dba726805ed0dcc2d",
+  "findings": [
+    {
+      "category": "latency_violation",
+      "code": "H-LATENCY",
+      "message": "95th percentile event latency 70.115 ms exceeds 10 ms",
+      "severity": "high"
+    }
+  ],
+  "gate_failure": true,
+  "operational_score": 98.28,
+  "passed": false,
+  "security_score": 100.0,
+  "structural_score": 100.0,
+  "tests_executed": 177
+}

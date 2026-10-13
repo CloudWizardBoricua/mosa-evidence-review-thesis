@@ -1,0 +1,5 @@
+{
+  "candidate": "configuration_coupling",
+  "fault_class": "configuration_coupling",
+  "expected_conformant": false
+}

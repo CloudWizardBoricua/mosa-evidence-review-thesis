@@ -1,0 +1,20 @@
+{
+  "mode": "baseline",
+  "cases": 20,
+  "labels_sha256": "ac731108efb820e59e68d8dbf3ee07314ad80990ab46d4a8b9273e1354e2bcad",
+  "disposition_correct": 20,
+  "raw_disposition_correct": 20,
+  "fault_localization_correct": 17,
+  "faulted_cases": 17,
+  "source_unchanged": 20,
+  "cited_cases": 20,
+  "tool_precision": 0.8666666666666667,
+  "tool_recall": 1.0,
+  "total_tool_calls": 60,
+  "model_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "median_latency_ms": 4.98,
+  "max_latency_ms": 6.967,
+  "limitations": "Synthetic development fixtures, single local execution, profile checks only. Not independent MOSA certification evidence."
+}

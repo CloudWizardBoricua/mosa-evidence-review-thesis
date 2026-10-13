@@ -1,0 +1,11 @@
+{
+  "module_name": "configuration_coupling",
+  "module_version": "1.0.0",
+  "vendor": "Vendor C",
+  "interface_version": "1.0",
+  "entry_point": "processor.py:process_event",
+  "declared_dependencies": [],
+  "source_sha256": "690f5206d6ed8146c97cb0c15f58a755844f90e3e94d2b18124ca2401062ce65",
+  "sbom": "sbom.json",
+  "data_rights": "government-purpose-rights"
+}

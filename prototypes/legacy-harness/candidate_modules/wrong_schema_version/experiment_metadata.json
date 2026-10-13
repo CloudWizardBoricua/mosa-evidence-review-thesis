@@ -1,0 +1,5 @@
+{
+  "candidate": "wrong_schema_version",
+  "fault_class": "wrong_schema_version",
+  "expected_conformant": false
+}

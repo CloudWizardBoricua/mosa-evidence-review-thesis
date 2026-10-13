@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "set": "thesis-study40-v1",
+  "model_default": "openai/gpt-4.1-mini",
+  "temperature": 0,
+  "max_tokens": 1200,
+  "model_turn_limit": 4,
+  "request_attempt_limit": 2,
+  "repetitions": 3,
+  "modes": [
+    "baseline",
+    "adaptive",
+    "openrouter"
+  ],
+  "budget_limit_usd": "5",
+  "profile": "mosa-course-profile-0.1",
+  "prompt_version": "mosa-review-0.1",
+  "live_advisories": false,
+  "primary_inference": "heldout unique cases, repetition 1, failures count as incorrect",
+  "timing_and_stability": "all three repetitions; split and mode reported separately",
+  "accuracy_interval": "Wilson 95 percent interval over unique first-run cases",
+  "finding_metric": "Exact finding-ID set comparison, missed and extra findings included",
+  "case_order": "case_id ascending; within case repetition ascending; mode order above",
+  "model": "openai/gpt-4.1-mini",
+  "preflight_amendment": {
+    "date": "2026-10-12",
+    "reason": "Suppress dependent missing-hash findings when the hash container is structurally invalid. Preserve the root structural blocker.",
+    "disclosure": "All 40 cases were run offline during a preflight. Additional cases remain a separate analysis split, but were inspected to identify this structural bug before the final freeze.",
+    "original_freeze_sha256": "dbda42002feb5c57e0a120c398e2e78fbcf635da219863ed178ca218e750fed4",
+    "original_preflight_runs": 240,
+    "hosted_runs_before_amendment": 0
+  },
+  "pricing_amendment": {
+    "date": "2026-10-12",
+    "reason": "Endpoint metadata lists a web-search rate, but the study enables no server search tool. Enforce text-only messages and local function tools before reserving cost; reject plugins and search options. Apply active token/request max-price caps.",
+    "previous_freeze_sha256": "66a39c8f0d561ac39225bf95a741334eacedde42341cb13b01a5e83c04108fa7",
+    "hosted_runs_before_amendment": 0,
+    "documentation": "https://openrouter.ai/docs/guides/routing/provider-selection#max-price",
+    "web_search_documentation": "https://openrouter.ai/docs/guides/features/server-tools/web-search"
+  }
+}

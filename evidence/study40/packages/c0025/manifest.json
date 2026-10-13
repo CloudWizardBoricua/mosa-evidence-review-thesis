@@ -1,0 +1,15 @@
+{
+  "module_id": "module-107",
+  "build_id": "build-107",
+  "interface_version": "1.0.0",
+  "dependencies": [
+    "demo-parser"
+  ],
+  "endpoints": [
+    {
+      "path": "/status",
+      "method": "get",
+      "response_type": "object"
+    }
+  ]
+}
