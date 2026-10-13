@@ -26,7 +26,7 @@ An agent is a model that selects its next action from a permitted set. Here it c
 | Step | Read this | Purpose |
 | --- | --- | --- |
 | 1 | This page | Understand the question and the boundary |
-| 2 | [Thesis PDFs](thesis.md) | Read or download the original 130-page thesis and revised 52-page draft |
+| 2 | [Thesis PDFs](thesis.md) | Read or download the original-content 132-page thesis and revised 52-page draft |
 | 3 | [Follow One Review](review.md) | Inspect a saved recommendation and its evidence |
 | 4 | [Compare Results](results.md) | Compare methods without mixing datasets |
 | 5 | [Understand the Terms](glossary.md) | Find plain language definitions and examples |

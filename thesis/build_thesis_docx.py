@@ -295,15 +295,17 @@ class Builder:
 
     def committee_page(self):
         m = self.content['metadata']
-        self.para(m['title'], 'Title', True, 40, 55)
-        label = 'A THESIS APPROVED FOR THE' if self.args.final_approval_page else 'A THESIS SUBMITTED FOR REVIEW TO THE'
-        self.para(label, 'Guide Text', True, 0, 12)
-        self.para(m['college'].upper(), 'Guide Text', True, 0, 35)
-        self.para('BY THE COMMITTEE CONSISTING OF', 'Guide Text', True, 0, 20)
+        self.para(m['title'], 'Title', True, 0, 48)
+        self.para('THESIS COMMITTEE', 'Guide Text', True, 0, 16, bold=True)
+        college = m['college'].upper().replace(' AND THE ', '\nAND THE ')
+        self.para(college, 'Guide Text', True, 0, 30)
         for name in m['committee']:
-            self.para(name, 'Guide Text', True, 0, 15)
+            self.para(name, 'Guide Text', True, 0, 10)
         if not self.args.final_approval_page:
-            self.para('Approval of this revised draft is pending.', 'Guide Text', True, 42, 0)
+            p = self.para('Revised research draft. Committee approval is pending.', 'Guide Text', True, 28, 0)
+            for run in p.runs:
+                run.font.size = Pt(11)
+                run.italic = True
 
     def copyright_page(self):
         m = self.content['metadata']
@@ -407,6 +409,11 @@ class Builder:
         p.paragraph_format.space_before = Pt(2)
         p.paragraph_format.space_after = Pt(2)
         run = font_run(p.add_run(text), bold=header)
+        run.font.size = Pt(11)
+        p.paragraph_format.line_spacing = 1.08
+        p.alignment = WD_ALIGN_PARAGRAPH.LEFT
+        if not header and re.fullmatch(r'(?:\d[\d.,/%]*|Not estimated|\$[\d.]+)', text):
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
         if header:
             run.font.color.rgb = RGBColor(255, 255, 255)
         tcpr = cell._tc.get_or_add_tcPr()

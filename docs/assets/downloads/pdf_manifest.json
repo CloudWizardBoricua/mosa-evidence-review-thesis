@@ -1,33 +1,79 @@
 {
   "schema_version": 1,
-  "prepared_at_utc": "2026-10-13T01:20:56+00:00",
+  "prepared_at_utc": "2026-10-13T02:06:12+00:00",
   "author": "Daren Jadiel Diaz",
   "title": "A CONFORMANCE HARNESS FOR VERIFIABLE MODULAR OPEN SYSTEMS OUTCOMES IN DEFENSE ACQUISITION: DESIGN, IMPLEMENTATION, AND CONTROLLED EVALUATION",
   "documents": [
     {
       "file": "thesis-original.pdf",
-      "pages": 130,
-      "bytes": 2176217,
-      "sha256": "b18a8e3b52bb00d16377f81dbb3418d8d81a019472b52e930f8d1ce2e9f2261c",
+      "pages": 132,
+      "bytes": 2205294,
+      "sha256": "2ac5af40f33e42e59e3668e8c1226fc3945eda2dad863a0ed267b3d9010134a4",
       "searchable_text": true,
       "export_application": "Microsoft Word 16",
+      "committee": [
+        "Dr. John Hassell, Chair",
+        "Dr. Christopher Freeze",
+        "Dr. Teri Reed",
+        "Dr. Muhammad Sajid Riaz",
+        "Dr. Chad Roller"
+      ],
       "visual_review": {
         "all_pages_checked": true,
-        "pages_checked": 130
+        "pages_checked": 132
       },
-      "version": "Original thesis preservation export",
+      "version": "Original thesis content, formatted reading copy",
       "source_document": "A Conformance Harness For Verifiable Modular Open Systems Outcomes In Defense Acquisition.docx",
       "source_sha256": "a0d975d81a136273f28122fbae59ad801ced6198b372253c8d3a2209419a8d11",
-      "source_unchanged_after_export": true,
-      "formatting": "Original layout and static navigation references retained; original formatting was not revised."
+      "archived_source_unchanged": true,
+      "research_prose_unchanged": true,
+      "source_validation": "Archived source SHA256 verified during formatting and export; publication content comparison uses the preserved original-content copy because the source is open in Word.",
+      "quantitative_table_data_unchanged": true,
+      "figures": 16,
+      "numbered_tables": 33,
+      "navigation_entries_refreshed": 251,
+      "formatting": "Separate copy; expanded committee, corrected cell indents, word wrapping, widths, padding, repeated table headers, and page references. Figure 16 retains the five original intervals with labels moved outside the bars.",
+      "formatting_tools": {
+        "thesis/format_original_thesis.py": "29a9946bb8019937d1ae88f445b134ee3bc7f3b027f6804d2d02a2cc63e612ba",
+        "thesis/export_thesis_pdfs.ps1": "94fbce0d276e7f52fde7165d1affde192d9ef687e8af678be386655c76953b0e"
+      },
+      "roadmap_intervals_months": [
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          12,
+          18
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          24,
+          36
+        ]
+      ]
     },
     {
       "file": "thesis-revised.pdf",
       "pages": 52,
-      "bytes": 900391,
-      "sha256": "43dcd5857f78ca7469d2f6dc20dcf0b07134c9fd527b427fee542f7f2a2999c2",
+      "bytes": 954139,
+      "sha256": "1dc06666f7cade3b0a8b878147f0da74ead45e8ab920d0c07f6604923bdcd739",
       "searchable_text": true,
       "export_application": "Microsoft Word 16",
+      "committee": [
+        "Dr. John Hassell, Chair",
+        "Dr. Christopher Freeze",
+        "Dr. Teri Reed",
+        "Dr. Muhammad Sajid Riaz",
+        "Dr. Chad Roller"
+      ],
       "visual_review": {
         "all_pages_checked": true,
         "pages_checked": 52
@@ -35,17 +81,16 @@
       "version": "Revised research draft",
       "committee_approval": "Pending; not implied by PDF publication",
       "independent_label_review": "Pending",
-      "source_inputs": {
-        "thesis/thesis_content.json": "85182de003cdd0bd320728506e465021b8a84172d3d08823a3820a4f7f37989a",
-        "thesis/build_thesis_docx.py": "a287a4a9bbd0082e506d184d630824c9fac471e02f2338b9344c9246822129d5",
-        "thesis/figure_map.json": "2368e4cb681aedd1dbec999e43c5b7e5344413fa08da9d226a2bde16abfd88b8",
-        "thesis/study_replacements.json": "d6b9dac9b332c617ae950054bf722f5de71882f05467878819947b592f29116b"
-      },
+      "figures": 7,
+      "numbered_tables": 4,
       "navigation_fields_updated": true,
       "verified_page_map_repository_path": "thesis/page_map.json",
-      "internal_navigation_links": 16,
-      "figures": 7,
-      "numbered_tables": 4
+      "source_inputs": {
+        "thesis/thesis_content.json": "b75adbf72f9c102e4fad6c0dc0eeb26dda2416d014357325113a58058be6fe4f",
+        "thesis/build_thesis_docx.py": "c91a7607cdd560d6068e5dfec421e9098cefd9bd03ec05098ed5fc3ede821503",
+        "thesis/figure_map.json": "2368e4cb681aedd1dbec999e43c5b7e5344413fa08da9d226a2bde16abfd88b8",
+        "thesis/study_replacements.json": "d6b9dac9b332c617ae950054bf722f5de71882f05467878819947b592f29116b"
+      }
     }
   ]
 }

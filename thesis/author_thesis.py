@@ -24,7 +24,7 @@ content = {
         'degree': 'Master of Science',
         'city': 'Tulsa, Oklahoma',
         'year': 2026,
-        'committee': ['Dr. John Hassell, Chair', 'Dr. Christopher Freeze'],
+        'committee': ['Dr. John Hassell, Chair', 'Dr. Christopher Freeze', 'Dr. Teri Reed', 'Dr. Muhammad Sajid Riaz', 'Dr. Chad Roller'],
         'copyright': 'Copyright by Daren Jadiel Diaz 2026. All Rights Reserved.',
         'revision_label': 'Condensed revision with agent supported evidence review',
         'approval_status': 'Revised research draft. Author review and committee approval of this revision are pending.',

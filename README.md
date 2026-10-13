@@ -10,7 +10,7 @@
 > **Formal thesis title**  
 > A CONFORMANCE HARNESS FOR VERIFIABLE MODULAR OPEN SYSTEMS OUTCOMES IN DEFENSE ACQUISITION: DESIGN, IMPLEMENTATION, AND CONTROLLED EVALUATION
 
-**Read the complete thesis:** [Original PDF (130 pages)](docs/assets/downloads/thesis-original.pdf) · [Revised PDF (52 pages)](docs/assets/downloads/thesis-revised.pdf)
+**Read the complete thesis:** [Original-content PDF (132 pages)](docs/assets/downloads/thesis-original.pdf) · [Revised PDF (52 pages)](docs/assets/downloads/thesis-revised.pdf)
 
 [Reading website](https://cloudwizardboricua.github.io/mosa-evidence-review-thesis/) · [PDF downloads and chapter guide](docs/thesis.md) · [Saved review explorer](docs/review.md) · [Results](docs/results.md) · [Reproduction guide](docs/reproduce.md)
 
@@ -30,7 +30,7 @@ The **Modular Open Systems Approach (MOSA)** concerns systems whose components c
 | Paid model study | Incomplete; stopped after HTTP 404 and unknown provider charge | [Budget ledger](evidence/study40/budget.json) |
 | Spending ceiling | $5 for the new study; actual charge unresolved | [Public summary](docs/assets/study_summary.json) |
 | Label review | Author verification and independent review pending | [Review status](evidence/study40/labels.json) |
-| Thesis documents | Original 130-page PDF and revised 52-page research draft | [Original PDF](docs/assets/downloads/thesis-original.pdf), [revised PDF](docs/assets/downloads/thesis-revised.pdf) |
+| Thesis documents | Reformatted original-content 132-page PDF and revised 52-page research draft | [Original PDF](docs/assets/downloads/thesis-original.pdf), [revised PDF](docs/assets/downloads/thesis-revised.pdf) |
 | Public interface | Reading site with saved records and filters | [Reader](docs/assets/javascripts/readers.js) |
 | Current capstone | Remains in class repository; migration is future work | [Migration guide](docs/migration.md) |
 
@@ -753,6 +753,8 @@ mosa-evidence-review-thesis/
 | [sync_diagrams.py](tools/sync_diagrams.py) | Aligns README/diagram-page Mermaid with `.mmd` | Rewrites blocks; image exports also need updates when content changes |
 | [build_thesis_docx.py](thesis/build_thesis_docx.py) | Builds Word from structured thesis content | Requires later field, layout, page review |
 | [read_pdf_page_map.py](thesis/read_pdf_page_map.py) | Supports page-reference mapping | Final-document preparation |
+| [format_original_thesis.py](thesis/format_original_thesis.py) | Corrects original tables and expands the committee on a separate copy | Checks research prose, table values, figures, and archived source preservation |
+| [export_thesis_pdfs.ps1](thesis/export_thesis_pdfs.ps1) | Exports both copies through Windows Microsoft Word | Refreshes navigation references and verifies the archive is unchanged |
 
 ## 13. Quick start
 
@@ -896,7 +898,7 @@ The confirmed earlier thesis remains preserved separately. Presentation changes 
 | Item | Status | Location |
 | --- | --- | --- |
 | Formal title | Preserved | [Citation](CITATION.cff), [guide](docs/thesis.md) |
-| Original PDF | Available; 130 pages; original Word source unchanged | [thesis-original.pdf](docs/assets/downloads/thesis-original.pdf) |
+| Original-content PDF | Available; 132 pages; tables reformatted and 251 page references refreshed; archived Word source unchanged | [thesis-original.pdf](docs/assets/downloads/thesis-original.pdf) |
 | Revised PDF | Available; 52 pages; contents, figure references, and all pages checked | [thesis-revised.pdf](docs/assets/downloads/thesis-revised.pdf) |
 | PDF provenance | Page counts, SHA-256 checksums, source identity, export method | [pdf_manifest.json](docs/assets/downloads/pdf_manifest.json) |
 | Structured argument | Available | [thesis_content.json](thesis/thesis_content.json) |
@@ -905,6 +907,7 @@ The confirmed earlier thesis remains preserved separately. Presentation changes 
 | Word tools | Available | [builder](thesis/build_thesis_docx.py), [authoring tool](thesis/author_thesis.py) |
 | Editable Word download | Not published; generation tools remain available | [PDF downloads](docs/thesis.md) |
 | Committee approval | Not claimed | Revised research draft |
+| Committee members | Dr. John Hassell, Chair; Dr. Christopher Freeze; Dr. Teri Reed; Dr. Muhammad Sajid Riaz; Dr. Chad Roller | [Committee and PDFs](docs/thesis.md#thesis-committee) |
 
 ### Chapter guide
 
@@ -919,7 +922,7 @@ The confirmed earlier thesis remains preserved separately. Presentation changes 
 | 6. Conclusions/future work | Supported findings and remaining evaluation | [Limits](#16-research-limits), [roadmap](#17-roadmap-and-migration) |
 | References/glossary/appendix | Sources, terms, procedures | [Sources](docs/sources.md), [glossary](docs/glossary.md), [reproduction](docs/reproduce.md) |
 
-[What changed](docs/changes.md) explains the revision/reduction plan. Read the PDFs for the complete documents; the Markdown pages provide companion guidance. The revised PDF was generated from the current structured content and exported through Microsoft Word after updating navigation fields. Its [page map](thesis/page_map.json) records verified locations. The original PDF preserves the original document's existing content, layout, and static navigation references. Neither export establishes approval of the revision.
+[What changed](docs/changes.md) explains the revision/reduction plan. Read the PDFs for the complete documents; the Markdown pages provide companion guidance. The revised PDF was generated from the current structured content and exported through Microsoft Word after updating navigation fields. Its [page map](thesis/page_map.json) records verified locations. The original-content PDF uses a separate formatted copy: research prose and data are retained, table indentation and spacing are corrected, and navigation page references are refreshed. Both committee lists include the five requested names. Neither export establishes approval of the revision.
 
 ## 16. Research limits
 

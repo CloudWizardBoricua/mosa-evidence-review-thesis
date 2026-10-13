@@ -11,14 +11,22 @@ By Daren Jadiel Diaz. This is a revised research draft with an agent supported e
 
 | Version | Pages | Contents and status |
 | --- | ---: | --- |
-| [Original thesis](assets/downloads/thesis-original.pdf) | 130 | Preservation export of the confirmed original Word document, including its existing formatting, figures, tables, references, and appendices |
+| [Original thesis](assets/downloads/thesis-original.pdf) | 132 | Original thesis content with corrected table formatting, refreshed page references, and the expanded committee list; figures, research prose, and data retained |
 | [Revised thesis](assets/downloads/thesis-revised.pdf) | 52 | Six chapters, seven figures, four numbered tables, linked contents, references, glossary, and reproduction appendix; research draft for review |
 
 Open a PDF to read it in your browser, or use the PDF viewer's download button to save a copy. Both files include searchable text. The revised PDF has linked contents and figure entries with page references checked against the exported pages.
 
-The original Word document was opened read-only for export and its checksum remained unchanged. The revised PDF was generated from the structured thesis source, exported through Microsoft Word, and checked page by page. Committee approval of the revision and independent label review remain pending.
+The archived original Word document remains unchanged. Its PDF is exported from a separate presentation copy with corrected cell indentation, table widths and spacing, refreshed contents/figure/table/equation page references, and the requested committee additions. The revised PDF was generated from the structured thesis source and exported through Microsoft Word. Committee approval of the revision and independent label review remain pending.
 
 [Download checksums and provenance](assets/downloads/pdf_manifest.json) identify the exact files and sources. The chapter guide below and the other website pages provide optional companion material alongside the complete PDFs.
+
+## Thesis committee
+
+- Dr. John Hassell, Chair
+- Dr. Christopher Freeze
+- Dr. Teri Reed
+- Dr. Muhammad Sajid Riaz
+- Dr. Chad Roller
 
 ## The question and answer to look for
 
